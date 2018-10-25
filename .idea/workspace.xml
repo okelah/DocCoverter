@@ -2,479 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa035f9-8db8-4057-a8b6-9ecdd29c696f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/images/InsertBarcodeImage/Barcode1.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/convert/Convert.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/convert/Impl/AsposeConvert.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/convert/Impl/Doc4jConvert.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/docx4j/fonts/ChineseFonts.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aspose_aspose_barcode_jdk17_18_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aspose_aspose_email_jdk16_18_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aspose_aspose_words_javadoc_18_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aspose_aspose_words_jdk16_18_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_9_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_healthmarketscience_jackcess_jackcess_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thedeanda_lorem_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_media_jai_com_springsource_javax_media_jai_codec_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_media_jai_com_springsource_javax_media_jai_core_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_arnx_wmf2svg_0_9_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_engio_mbassador_1_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ucanaccess_ucanaccess_3_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avalon_framework_avalon_framework_api_4_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avalon_framework_avalon_framework_impl_4_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_anim_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_awt_util_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_bridge_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_constants_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_css_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_dom_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_ext_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_extension_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_gvt_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_i18n_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_parser_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_script_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_svg_dom_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_svggen_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_transcoder_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_util_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_xml_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_fop_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_xmlgraphics_commons_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_docx4j_6_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_docx4j_export_fo_6_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_plutext_jaxb_svg11_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_plutext_jaxb_xslfo_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hf.fo" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/aspose/Aspose.Total.Java.lic" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/aspose/license.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.fo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocCoverter.iml" afterPath="$PROJECT_DIR$/DocCoverter.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/BubbleChart/BubbleChart.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/BubbleChart/BubbleChart.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/BuildOptions/template_cleanup.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/BuildOptions/template_cleanup.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/BulletedList/BulletedList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/BulletedList/BulletedList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/ChartWithFilteringGroupingOrdering/ChartWithFilteringGroupingOrdering.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/ChartWithFilteringGroupingOrdering/ChartWithFilteringGroupingOrdering.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/Common/photo.png" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/Common/photo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/CommonList/CommonList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/CommonList/CommonList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/CommonMasterDetail/CommonMasterDetail.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/CommonMasterDetail/CommonMasterDetail.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/HelloWorld/HelloWorld.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/HelloWorld/HelloWorld.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/InParagraphList/InParagraphList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/InParagraphList/InParagraphList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/InTableAlternateContent/InTableAlternateContent - Copy.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/InTableAlternateContent/InTableAlternateContent - Copy.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/InTableAlternateContent/InTableAlternateContent.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/InTableAlternateContent/InTableAlternateContent.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/InTableAlternateContent/InTableList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/InTableAlternateContent/InTableList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/InTableList/InTableList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/InTableList/InTableList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/InTableMasterDetail/InTableMasterDetail.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/InTableMasterDetail/InTableMasterDetail.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/InTableRow/InTableRow.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/InTableRow/InTableRow.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/InTableWithFilteringGroupingSorting/InTableWithFilteringGroupingSorting.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/InTableWithFilteringGroupingSorting/InTableWithFilteringGroupingSorting.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/MulticoloredNumberedList/MulticoloredNumberedList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/MulticoloredNumberedList/MulticoloredNumberedList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/NumberedList/NumberedList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/NumberedList/NumberedList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/PieChart/PieChart.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/PieChart/PieChart.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/ScatterChart/ScatterChart.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/ScatterChart/ScatterChart.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/SettingBackgroundColor/SettingBackgroundColor.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/SettingBackgroundColor/SettingBackgroundColor.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/linq/SingleRow/SingleRow.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/linq/SingleRow/SingleRow.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (HTML).html" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (HTML).html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (JPG).jpg" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (JPG).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (MHTML).mhtml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (MHTML).mhtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (WordML).xml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (WordML).xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (XML).xml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (XML).xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (doc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (doc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (docm).docm" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (docm).docm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (docx).docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (docx).docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (dot).dot" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (dot).dot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (dotx).dotx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (dotx).dotx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (enc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (enc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (enc).docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (enc).docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (odt).odt" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (odt).odt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (pre97).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (pre97).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (rtf).rtf" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormat/Test File (rtf).rtf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (HTML).html" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (HTML).html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (JPG).jpg" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (JPG).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (MHTML).mhtml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (MHTML).mhtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (WordML).xml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (WordML).xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (XML).xml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (XML).xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (doc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (doc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (docm).docm" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (docm).docm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (docx).docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (docx).docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (dot).dot" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (dot).dot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (dotx).dotx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (dotx).dotx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (enc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (enc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (enc).docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (enc).docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (odt).odt" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (odt).odt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (pre97).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (pre97).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (rtf).rtf" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/CheckFormatCompatibility/Test File (rtf).rtf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertDocumentToByte/Test File (doc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToByte/Test File (doc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertDocumentToEPUB/Document.EpubConversion.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToEPUB/Document.EpubConversion.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertDocumentToEPUBUysingDefaultSaveOptions/Document.EpubConversion.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToEPUBUysingDefaultSaveOptions/Document.EpubConversion.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertDocumentToHtmlWithRoundtrip/Test File (doc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToHtmlWithRoundtrip/Test File (doc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertDocumentToPCL/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToPCL/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertImageToPdf/Test.bmp" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ConvertImageToPdf/Test.bmp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/DetectDocumentSignatures/Document.Signed.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/DetectDocumentSignatures/Document.Signed.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/DetectDocumentSignatures/Document.Signed.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/DetectDocumentSignatures/Document.Signed.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/DigitallySignedPdf/Document.Signed.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/DigitallySignedPdf/Document.Signed.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/DisplayDocTitleInWindowTitlebar/Test File (doc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/DisplayDocTitleInWindowTitlebar/Test File (doc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/Doc2PDF/Template.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/Doc2PDF/Template.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ExportFontsAsBase64/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ExportFontsAsBase64/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions/Resources/Resources.txt" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions/Resources/Resources.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (HTML).html" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (HTML).html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (JPG).jpg" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (JPG).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (MHTML).mhtml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (MHTML).mhtml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (WordML).xml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (WordML).xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (XML).xml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (XML).xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (doc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (doc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (docm).docm" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (docm).docm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (docx).docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (docx).docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (dot).dot" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (dot).dot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (dotx).dotx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (dotx).dotx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (enc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (enc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (enc).docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (enc).docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (odt).odt" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (odt).odt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (pre97).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (pre97).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (rtf).rtf" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder/Test File (rtf).rtf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ImageToPdf/Test.bmp" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ImageToPdf/Test.bmp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ImageToPdf/Test.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ImageToPdf/Test.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ImageToPdf/Test.jpg" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ImageToPdf/Test.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/ImageToPdf/Test.png" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/ImageToPdf/Test.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadAndSave/Test File (doc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/LoadAndSave/Test File (doc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadAndSaveDocToDatabase/Test File (doc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/LoadAndSaveDocToDatabase/Test File (doc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadAndSaveHtmlFormFieldasContentControlinDOCX/input.html" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/LoadAndSaveHtmlFormFieldasContentControlinDOCX/input.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadAndSaveToStream/Test File (doc).doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/LoadAndSaveToStream/Test File (doc).doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadEncryptedDoc/LoadEncrypted.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/LoadEncryptedDoc/LoadEncrypted.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadTxt/LoadTxt.txt" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/LoadTxt/LoadTxt.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/Load_Options/AnnotationsAtBlockLevel.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/Load_Options/AnnotationsAtBlockLevel.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/Load_Options/OfficeMath.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/Load_Options/OfficeMath.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/Load_Options/encrypted.odt" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/Load_Options/encrypted.odt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/Load_Options/input.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/Load_Options/input.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/OpenDocUsingStream/test.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/OpenDocUsingStream/test.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/OpenDocument/test.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/OpenDocument/test.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/OpenEncryptedDocument/LoadEncrypted.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/OpenEncryptedDocument/LoadEncrypted.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/PageSplitter/Rendering.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/PageSplitter/Rendering.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/PageSplitter/Sample Documentation.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/PageSplitter/Sample Documentation.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/SaveDocWithHtmlSaveOptions/CidUrls.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/SaveDocWithHtmlSaveOptions/CidUrls.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/SaveDocWithHtmlSaveOptions/Document.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/SaveDocWithHtmlSaveOptions/Document.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/SendToClientBrowser/test.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/SendToClientBrowser/test.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/SpecifySaveOption/TestFile RenderShape.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/SpecifySaveOption/TestFile RenderShape.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/SplitIntoHtmlPages/SOI 2007-2012-DeeM with footnote added.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/SplitIntoHtmlPages/SOI 2007-2012-DeeM with footnote added.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/SplitIntoHtmlPages/TocTemplate.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/SplitIntoHtmlPages/TocTemplate.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/Word2Help/Sample Documentation.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/Word2Help/Sample Documentation.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/Word2Help/banner.html" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/Word2Help/banner.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/Word2Help/footer.html" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/Word2Help/footer.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/Word2Help/header.html" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/Word2Help/header.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/WorkingWithRTF/Utf8Text.rtf" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/WorkingWithRTF/Utf8Text.rtf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/WorkingWithTxt/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/WorkingWithTxt/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/WorkingWithTxt/Input.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/WorkingWithTxt/Input.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/loading_saving/WorkingWithTxt/LoadTxt.txt" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/loading_saving/WorkingWithTxt/LoadTxt.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/ApplyCustomLogicToEmptyRegions/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/ApplyCustomLogicToEmptyRegions/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/MailMergeAndConditionalField/UnconditionalMergeFieldsAndRegions.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/MailMergeAndConditionalField/UnconditionalMergeFieldsAndRegions.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/MailMergeFormFields/Template.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/MailMergeFormFields/Template.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/MailMergeUsingMustacheSyntax/VendorTemplate.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/MailMergeUsingMustacheSyntax/VendorTemplate.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/MailMergeUsingMustacheSyntax/Vendors.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/MailMergeUsingMustacheSyntax/Vendors.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/MultipleDocsInMailMerge/Customers.mdb" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/MultipleDocsInMailMerge/Customers.mdb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/MultipleDocsInMailMerge/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/MultipleDocsInMailMerge/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/MustacheTemplateSyntax/ExecuteTemplate.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/MustacheTemplateSyntax/ExecuteTemplate.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/MustacheTemplateSyntax/Orders.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/MustacheTemplateSyntax/Orders.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/MustacheTemplateSyntax/Output.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/MustacheTemplateSyntax/Output.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/MustacheTemplateSyntax/Output.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/MustacheTemplateSyntax/Output.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/NestedMailMerge/Invoice Template.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/NestedMailMerge/Invoice Template.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/NestedMailMerge/InvoiceDB.mdb" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/NestedMailMerge/InvoiceDB.mdb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/RemoveEmptyRegions/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/RemoveEmptyRegions/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/RemoveRowsFromTable/RemoveTableRows.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/RemoveRowsFromTable/RemoveTableRows.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/RemoveUnmergedRegions/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/RemoveUnmergedRegions/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/SimpleMailMerge/MailMerge.ExecuteArray.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/SimpleMailMerge/MailMerge.ExecuteArray.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/XMLMailMerge/Customers.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/XMLMailMerge/Customers.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/mail_merge/XMLMailMerge/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/mail_merge/XMLMailMerge/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/Hyperlink/ReplaceHyperlinks/ReplaceHyperlinks.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/Hyperlink/ReplaceHyperlinks/ReplaceHyperlinks.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/Ranges/RangesDeleteText/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/Ranges/RangesDeleteText/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/Ranges/RangesGetText/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/Ranges/RangesGetText/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/Shapes/WorkingWithShapes/Test.png" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/Shapes/WorkingWithShapes/Test.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/StructuredDocumentTag/WorkingWithStructuredDocumentTag/input.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/StructuredDocumentTag/WorkingWithStructuredDocumentTag/input.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/Theme/GetThemeProperties/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/Theme/GetThemeProperties/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/Theme/SetThemeProperties/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/Theme/SetThemeProperties/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/AccessBookmarks/Bookmark.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/bookmarks/AccessBookmarks/Bookmark.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/BookmarkNameAndText/Bookmark.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/bookmarks/BookmarkNameAndText/Bookmark.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/CopyBookmarkedText/Template.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/bookmarks/CopyBookmarkedText/Template.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/GetAndSetBookmarkNameAndText/Bookmark.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/bookmarks/GetAndSetBookmarkNameAndText/Bookmark.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/ObtainBookmarkByIndexAndName/Bookmarks.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/bookmarks/ObtainBookmarkByIndexAndName/Bookmarks.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/UntangleRowBookmarks/TestDefect1352.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/bookmarks/UntangleRowBookmarks/TestDefect1352.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/AddRemoveCommentReply/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/comments/AddRemoveCommentReply/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/ExtractComments/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/comments/ExtractComments/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/ExtractCommentsByAuthor/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/comments/ExtractCommentsByAuthor/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/ProcessComments/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/comments/ProcessComments/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/RemoveCommentRegionText/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/comments/RemoveCommentRegionText/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/RemoveComments/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/comments/RemoveComments/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/RemoveCommentsByAuthor/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/comments/RemoveCommentsByAuthor/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ClearContentsControl/input.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ClearContentsControl/input.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/CompareDocumentWithComparisonTarget/TestFile - Copy.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/CompareDocumentWithComparisonTarget/TestFile - Copy.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/CompareDocumentWithComparisonTarget/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/CompareDocumentWithComparisonTarget/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/CompareTwoWordDocumentswithCompareOptions/DocumentA.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/CompareTwoWordDocumentswithCompareOptions/DocumentA.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/CompareTwoWordDocumentswithCompareOptions/DocumentB.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/CompareTwoWordDocumentswithCompareOptions/DocumentB.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderCursorPosition/DocumentBuilder.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderCursorPosition/DocumentBuilder.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderInsertElements/input.zip" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertElements/input.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderInsertFloatingImage/test.jpg" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertFloatingImage/test.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderInsertInlineImage/test.jpg" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertInlineImage/test.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToBookmark/DocumentBuilder.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToBookmark/DocumentBuilder.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToBookmarkEnd/DocumentBuilder.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToBookmarkEnd/DocumentBuilder.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToMergeField/DocumentBuilder.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToMergeField/DocumentBuilder.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToNode/DocumentBuilder.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToNode/DocumentBuilder.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToParagraph/DocumentBuilder.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToParagraph/DocumentBuilder.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToSection/DocumentBuilder.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToSection/DocumentBuilder.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToTableCell/DocumentBuilder.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToTableCell/DocumentBuilder.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderSetFormatting/Input.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetFormatting/Input.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderSetImageAspectRatioLocked/Test.png" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetImageAspectRatioLocked/Test.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentInDB/DocDB.mdb" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentInDB/DocDB.mdb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentInDB/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentInDB/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenBlockLevelNodes/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenBlockLevelNodes/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenBookmarks/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenBookmarks/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenCommentRange/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenCommentRange/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenParagraphStyles/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenParagraphStyles/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenParagraphs/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenParagraphs/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenRuns/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenRuns/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentUsingField/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentUsingField/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ModifyContentControls/CheckBoxTypeContentControl.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ModifyContentControls/CheckBoxTypeContentControl.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ModifyContentControls/Watermark.png" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ModifyContentControls/Watermark.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/RemovePageAndSectionBreaks/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/RemovePageAndSectionBreaks/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ReplaceWithEvaluator/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ReplaceWithEvaluator/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ReplaceWithRegex/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ReplaceWithRegex/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ReplaceWithString/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/ReplaceWithString/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/SetCompatibilityOptions/TestFile.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/SetCompatibilityOptions/TestFile.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/SetCurrentStateOfCheckBox/CheckBoxTypeContentControl.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/SetCurrentStateOfCheckBox/CheckBoxTypeContentControl.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/SetupLanguagePreferences/languagepreferences.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/SetupLanguagePreferences/languagepreferences.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/WorkingWithSaveOptions/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/WorkingWithSaveOptions/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/properties/DocProperties/Properties.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/document/properties/DocProperties/Properties.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/ConvertFieldsInBody/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/ConvertFieldsInBody/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/ConvertFieldsInDocument/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/ConvertFieldsInDocument/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/ConvertFieldsInParagraph/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/ConvertFieldsInParagraph/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/FormFieldsGetByName/FormFields.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsGetByName/FormFields.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/FormFieldsGetFormFieldsCollection/FormFields.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsGetFormFieldsCollection/FormFields.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/FormFieldsWorkWithProperties/FormFields.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsWorkWithProperties/FormFields.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/GetFieldNames/Rendering.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/GetFieldNames/Rendering.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertAuthorField/in.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/InsertAuthorField/in.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertINCLUDETEXT/IncludeText.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/InsertINCLUDETEXT/IncludeText.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertINCLUDETEXT/in.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/InsertINCLUDETEXT/in.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertMailMergeAddressBlockFieldUsingDOM/in.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/InsertMailMergeAddressBlockFieldUsingDOM/in.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertMergeFieldUsingDOM/in.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/InsertMergeFieldUsingDOM/in.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertTOAField/in.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/InsertTOAField/in.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/RemoveField/Field.RemoveField.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/RemoveField/Field.RemoveField.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/UpdateDocFields/Rendering.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/UpdateDocFields/Rendering.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/UseOfficeMathProperties/MathEquations.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/fields/UseOfficeMathProperties/MathEquations.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/find_replace/FindAndHighlight/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/find_replace/FindAndHighlight/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/find_replace/ReplaceTextWithField/Field.ReplaceTextWithFields.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/find_replace/ReplaceTextWithField/Field.ReplaceTextWithFields.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/find_replace/ReplaceWithEvaluator/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/find_replace/ReplaceWithEvaluator/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/find_replace/ReplaceWithRegex/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/find_replace/ReplaceWithRegex/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/find_replace/ReplaceWithString/test.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/find_replace/ReplaceWithString/test.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/images/AddWatermark/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/images/AddWatermark/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/images/CompressImages/Test.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/images/CompressImages/Test.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/images/ExtractImagesToFiles/Image.SampleImages.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/images/ExtractImagesToFiles/Image.SampleImages.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/images/InsertBarcodeImage/Image.SampleImages.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/images/InsertBarcodeImage/Image.SampleImages.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/images/RemoveWatermark/RemoveWatermark.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/images/RemoveWatermark/RemoveWatermark.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/AppendDocumentManually/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/AppendDocumentManually/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/AppendDocumentManually/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/AppendDocumentManually/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/BaseDocument/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/BaseDocument/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/BaseDocument/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/BaseDocument/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/BaseDocument/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/BaseDocument/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/BaseDocument/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/BaseDocument/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/BaseDocument/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/BaseDocument/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinContinuous/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/JoinContinuous/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinContinuous/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/JoinContinuous/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinContinuous/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/JoinContinuous/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinContinuous/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/JoinContinuous/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinContinuous/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/JoinContinuous/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinNewPage/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/JoinNewPage/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinNewPage/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/JoinNewPage/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.DestinationList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.DestinationList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.SourceList.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.SourceList.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.SourcePageSetup.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.SourcePageSetup.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/sections/DeleteAllSections/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/sections/DeleteAllSections/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/sections/SectionsAccessByIndex/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/sections/SectionsAccessByIndex/Section.AddRemove.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Section.AddRemove.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/sections/SectionsAccessByIndex/Section.AppendContent.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex/Section.AppendContent.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/signature/SigningSignatureLine/Document.Signed.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/signature/SigningSignatureLine/Document.Signed.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/signature/SigningSignatureLine/SignatureImage.emf" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/signature/SigningSignatureLine/SignatureImage.emf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/styles/ExtractContentBasedOnStyles/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/styles/ExtractContentBasedOnStyles/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/styles/WorkingWithStyle/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/styles/WorkingWithStyle/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/styles/WorkingWithStyle/template.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/styles/WorkingWithStyle/template.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/AddRemoveColumn/InsertBlankColumn/Table.SimpleTable.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/AddRemoveColumn/InsertBlankColumn/Table.SimpleTable.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyFormatting/BuildTableWithBordersEnabled/Table.EmptyTable.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/BuildTableWithBordersEnabled/Table.EmptyTable.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyFormatting/GetTablePosition/FloatingTablePosition.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/GetTablePosition/FloatingTablePosition.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyFormatting/GetTablePosition/Table.Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/GetTablePosition/Table.Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyFormatting/ModifyCellFormatting/Table.Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/ModifyCellFormatting/Table.Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyFormatting/ModifyRowFormatting/Table.Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/ModifyRowFormatting/Table.Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyStyle/ExpandFormattingOnCellsAndRowFromStyle/Table.TableStyle.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/ApplyStyle/ExpandFormattingOnCellsAndRowFromStyle/Table.TableStyle.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/AutoFitTableToContents/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/AutoFitTableToContents/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/AutoFitTableToFixedWidthColumns/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/AutoFitTableToFixedWidthColumns/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/AutoFitTableToPageWidth/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/AutoFitTableToPageWidth/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/AutoFitTableToWindow/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/AutoFitTableToWindow/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/CloneTable/CloneCompleteTable/Table.SimpleTable.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/CloneTable/CloneCompleteTable/Table.SimpleTable.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/CloneTable/CloneLastRow/Table.SimpleTable.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/CloneTable/CloneLastRow/Table.SimpleTable.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ExtractOrReplaceText/ExtractText/Table.Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/ExtractOrReplaceText/ExtractText/Table.Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ExtractOrReplaceText/ExtractText/test.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/ExtractOrReplaceText/ExtractText/test.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ExtractOrReplaceText/PrintTextRangeOFRowAndTable/Table.Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/ExtractOrReplaceText/PrintTextRangeOFRowAndTable/Table.Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ExtractOrReplaceText/ReplaceText/Table.SimpleTable.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/ExtractOrReplaceText/ReplaceText/Table.SimpleTable.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/FindingIndex/RetrieveCellIndex/Table.Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/FindingIndex/RetrieveCellIndex/Table.Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/FindingIndex/RetrieveRowIndex/Table.Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/FindingIndex/RetrieveRowIndex/Table.Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/FindingIndex/RetrieveTableIndex/test.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/FindingIndex/RetrieveTableIndex/test.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/JoiningAndSplittingTable/CombineRows/Table.Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/JoiningAndSplittingTable/CombineRows/Table.Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/JoiningAndSplittingTable/SplitTable/Table.Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/JoiningAndSplittingTable/SplitTable/Table.Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/JoiningAndSplittingTable/SplitTable/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/JoiningAndSplittingTable/SplitTable/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/KeepTablesAndRowsBreaking/RowFormatDisableBreakAcrossPages/Table.TableAcrossPage.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/KeepTablesAndRowsBreaking/RowFormatDisableBreakAcrossPages/Table.TableAcrossPage.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/KeepTablesAndRowsBreaking/RowFormatDisableBreakAcrossPages/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/KeepTablesAndRowsBreaking/RowFormatDisableBreakAcrossPages/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/MergedCells/CheckCellsMerged/Table.TableAcrossPage.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/MergedCells/CheckCellsMerged/Table.TableAcrossPage.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/SpecifyHeightAndWidth/RetrievePreferredWidthType/Table.SimpleTable.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/programming_documents/tables/SpecifyHeightAndWidth/RetrievePreferredWidthType/Table.SimpleTable.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/quickstart/AppendDocuments/TestFile.Destination.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/quickstart/AppendDocuments/TestFile.Destination.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/quickstart/AppendDocuments/TestFile.Source.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/quickstart/AppendDocuments/TestFile.Source.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/quickstart/FindAndReplace/ReplaceSimple.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/quickstart/FindAndReplace/ReplaceSimple.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/quickstart/LoadAndSaveToDisk/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/quickstart/LoadAndSaveToDisk/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/quickstart/LoadAndSaveToStream/Document.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/quickstart/LoadAndSaveToStream/Document.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/quickstart/SimpleMailMerge/Template.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/quickstart/SimpleMailMerge/Template.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/rendering_printing/DocumentPreviewAndPrint/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/DocumentPreviewAndPrint/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/rendering_printing/RenderShapes/TestFile.RenderToGraphics.png" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/RenderShapes/TestFile.RenderToGraphics.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/rendering_printing/RenderShapes/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/RenderShapes/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/rendering_printing/RenderShapes/TestFile.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/RenderShapes/TestFile.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/rendering_printing/SaveAsMultipageTiff/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/SaveAsMultipageTiff/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/rendering_printing/SaveImageWithResolution/TestFile.doc" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/SaveImageWithResolution/TestFile.doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/rendering_printing/SetPdfSaveOptions/EscapeUri.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/SetPdfSaveOptions/EscapeUri.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/rendering_printing/SetPdfSaveOptions/TestFile.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/SetPdfSaveOptions/TestFile.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/rendering_printing/WorkingWithFontSources/TestFile.docx" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/WorkingWithFontSources/TestFile.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/App.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/App.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Body.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Body.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/BookmarkEnd.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/BookmarkEnd.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/BookmarkStart.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/BookmarkStart.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Cell.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Cell.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Comment.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Comment.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/CommentRangeEnd.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/CommentRangeEnd.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/CommentRangeStart.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/CommentRangeStart.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/CustomXmlMarkup.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/CustomXmlMarkup.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Document.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Document.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/DrawingML.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/DrawingML.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FieldEnd.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FieldEnd.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FieldSeparator.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FieldSeparator.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FieldStart.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FieldStart.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Footer.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Footer.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Footnote.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Footnote.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormCheckBox.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormCheckBox.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormDropDown.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormDropDown.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormField.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormField.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormTextInput.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormTextInput.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/GroupShape.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/GroupShape.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Header.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Header.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/HeaderFooter.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/HeaderFooter.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/InlineShape.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/InlineShape.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Node.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Node.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/OfficeMath.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/OfficeMath.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/OleControl.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/OleControl.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/OleObject.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/OleObject.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Paragraph.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Paragraph.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Row.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Row.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Run.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Run.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Section.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Section.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Shape.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Shape.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/SmartTag.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/SmartTag.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/SpecialChar.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/SpecialChar.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/StructuredDocumentTag.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/StructuredDocumentTag.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Table.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Table.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/aspose.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/aspose.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_1.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_2.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_3.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_3.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_4.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_4.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_5.gif" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_5.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -501,7 +40,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding>
+                <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -539,8 +91,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/aspose/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/UpdateFields.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -644,6 +196,156 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocCoverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocCoverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocCoverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocCoverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocCoverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocCoverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocCoverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocCoverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocCoverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DocCoverter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rendering_printing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1245,27 +947,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertBarcodeImage">
-    <configuration default="false" name="SimpleMailMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.aspose.words.examples.quickstart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.aspose.words.examples.quickstart.SimpleMailMerge" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DocCoverter" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="UpdateFields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1334,6 +1016,21 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.aspose.words.examples.programming_documents.images.InsertBarcodeImage" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DocCoverter" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1711,19 +1408,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SimpleMailMerge" />
-      <item index="1" class="java.lang.String" itemvalue="Application.UpdateFields" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GetThemeProperties" />
-      <item index="3" class="java.lang.String" itemvalue="Application.AccessBookmarks" />
-      <item index="4" class="java.lang.String" itemvalue="Application.InsertBarcodeImage" />
+      <item index="0" class="java.lang.String" itemvalue="Application.UpdateFields" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GetThemeProperties" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AccessBookmarks" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InsertBarcodeImage" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.InsertBarcodeImage" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AccessBookmarks" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GetThemeProperties" />
-        <item index="3" class="java.lang.String" itemvalue="Application.UpdateFields" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SimpleMailMerge" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InsertBarcodeImage" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AccessBookmarks" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GetThemeProperties" />
+        <item index="4" class="java.lang.String" itemvalue="Application.UpdateFields" />
       </list>
     </recent_temporary>
   </component>
@@ -1745,7 +1442,7 @@
       <workItem from="1540367304548" duration="1042000" />
       <workItem from="1540432297740" duration="9362000" />
       <workItem from="1540448568839" duration="1230000" />
-      <workItem from="1540451244972" duration="5708000" />
+      <workItem from="1540451244972" duration="6956000" />
     </task>
     <task id="LOCAL-00001" summary="1st Edition">
       <created>1540448626667</created>
@@ -1775,11 +1472,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540452745513</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="整理测试环境">
+      <created>1540469659106</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540469659106</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34740000" />
+    <option name="totallyTimeSpent" value="35988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1794,20 +1498,20 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.4927798" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19083156" sideWeight="0.4927798" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2675906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32622603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4067245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1829,11 +1533,12 @@
     <MESSAGE value="1st Edition" />
     <MESSAGE value="2st Edition" />
     <MESSAGE value="2st Edition 新增html 转化测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="2st Edition 新增html 转化测试" />
+    <MESSAGE value="整理测试环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理测试环境" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1995,17 +1700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -2063,7 +1757,7 @@
         <state relative-caret-position="352">
           <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2113,6 +1807,16 @@
         <state relative-caret-position="348">
           <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

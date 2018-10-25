@@ -28,7 +28,7 @@ public class Main {
 //        doc4jHtmlTest(testfile);
 //        asposeHtmlTest(testfile);
 //        asposeHtmlTest(testfile);
-        saveHtmlWithMetafileFormat("/Users/null/Documents/SelfStudy/");
+        saveHtmlWithMetafileFormat("E:\\ConvertTest\\");
 //        doc4jPdfTest(testfile);
 //        doc4jPdfTest(testfile);
 //        asposePdfTest(testfile);
@@ -39,7 +39,7 @@ public class Main {
     public static void saveHtmlWithMetafileFormat(String dataDir) throws Exception
     {
         // ExStart:SaveHtmlWithMetafileFormat
-        Document doc = new Document(dataDir + "mac-edit.docx");
+        Document doc = new Document(dataDir + "mac_edit.docx");
         HtmlSaveOptions options = new HtmlSaveOptions();
         options.setMetafileFormat(HtmlMetafileFormat.EMF_OR_WMF);
 
