@@ -1,20 +1,416 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aa035f9-8db8-4057-a8b6-9ecdd29c696f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/convert/Convert.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/convert/Impl/AsposeConvert.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/convert/Impl/Doc4jConvert.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/docx4j/fonts/ChineseFonts.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hf.fo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/aspose/Aspose.Total.Java.lic" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/aspose/license.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.fo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="d386df81-456d-4b16-85c0-13186ba03bfc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/document_object_model/AccessParentNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/document_object_model/ChildNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/document_object_model/CreateAndAddParagraphNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/document_object_model/GetNodeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/document_object_model/OwnerDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/document_object_model/SiblingNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/document_object_model/TypedAccessToChildrenAndParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/BubbleChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/BuildOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/BulletedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/ChartWithFilteringGroupingOrdering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/CommonList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/CommonMasterDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/Contract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/InParagraphList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/InTableAlternateContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/InTableList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/InTableMasterDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/InTableRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/InTableWithFilteringGroupingSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/MulticoloredNumberedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/NumberedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/PieChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/ScatterChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/SettingBackgroundColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/SingleRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/AccessAndVerifySignature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/CheckFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/CheckFormatCompatibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertADocumentToMHTMLAndEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertDocumentToByte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertDocumentToEPUB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertDocumentToEPUBUysingDefaultSaveOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertDocumentToHtmlWithRoundtrip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertDocumentToPCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertImageToPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/CreateDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/DetectDocumentSignatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/DetectFileFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/DigitallySignedPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/DisplayDocTitleInWindowTitlebar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/Doc2PDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ExportFontsAsBase64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ImageToPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/LargeSizeImageToPdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/LoadAndSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/LoadAndSaveHtmlFormFieldasContentControlinDOCX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/LoadAndSaveToStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/LoadDocFromDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/LoadEncryptedDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/LoadTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/Load_Options.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/OpenDocUsingStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/OpenDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/OpenEncryptedDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/PageSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/SaveDocToDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/SaveDocWithHtmlSaveOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/SaveOptionsHtmlFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/SendToClientBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/SpecifySaveOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/SplitIntoHtmlPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/Word2Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/WorkingWithRTF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/WorkingWithTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/AdvancedMailMergeFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/ApplyCustomFormattingDuringMailMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/ApplyCustomLogicToEmptyRegions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/ExecuteMailMergeWithRegions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/ExecuteSimpleMailMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/HandleMailMergeSwitches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/InsertCheckBoxesOrHTMLDuringMailMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/InsertImagesFromADatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/MailMergeAndConditionalField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/MailMergeFormFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/MailMergeFromXMLUsingIMailMergeDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/MailMergeUsingMustacheTemplateSyntax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/MultipleDocsInMailMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/MustacheTemplateSyntax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/NestedMailMergeRegions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/ProduceMultipleDocumentsDuringMailMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/RemoveEmptyRegions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/RemoveRowsFromTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/RemoveUnmergedRegions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/XMLMailMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/XmlMailMergeDataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/XmlMailMergeDataTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/HeadersAndFooters/CreateHeadersFootersUsingDocumentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/HeadersAndFooters/RemoveFootersButLeaveHeadersIntact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/Hyperlink/ReplaceHyperlinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/Lists/WorkingWithList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/Ranges/RangesDeleteText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/Ranges/RangesGetText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/Shapes/WorkingWithShapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/StructuredDocumentTag/WorkingWithStructuredDocumentTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/Theme/GetThemeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/Theme/SetThemeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/bookmarks/AccessBookmarks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/bookmarks/BookmarkNameAndText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/bookmarks/BookmarkTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/bookmarks/CopyBookmarkedText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/bookmarks/CreateBookmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/bookmarks/GetAndSetBookmarkNameAndText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/bookmarks/InsertBookmarksWithWhiteSpaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/bookmarks/ObtainBookmarkByIndexAndName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/bookmarks/UntangleRowBookmarks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/charts/ChartAppearance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/charts/ChartNumberFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/charts/OOXMLCharts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/charts/WorkWithChartDataLabelOfASingleChartSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/charts/WorkWithChartSeriesCollectionOfChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/charts/WorkWithSingleChartDataPointOfAChartSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/charts/WorkingWithChartAxis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/comments/AddComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/comments/AddRemoveCommentReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/comments/AnchorComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/comments/CreateSimpleDocumentUsingDocumentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/comments/ExtractCommentsByAuthor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/comments/ProcessComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/comments/RemoveCommentRegionText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/comments/RemoveComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/comments/RemoveCommentsByAuthor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/AccessStyles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/AddGroupShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/BindingContentControlwithXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/CheckBoxTypeContentControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ClearContentsControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/CloneDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ComboBoxContentControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/CompareDocumentWithComparisonTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/CompareTwoWordDocuments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/CompareTwoWordDocumentswithCompareOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ConvertBetweenMeasurementUnits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderApplyBordersAndShadingToParagraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderApplyParagraphStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderBuildTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderCursorPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderHeadersAndFooters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertBookmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertCheckBoxFormField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertComboBoxFormField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertFloatingImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertHorizontalRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertHtml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertHyperlink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertInlineImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertOleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertParagraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertTableOfContents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertTextInputFormField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToBookmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToBookmarkEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToDocumentStartEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToMergeField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToParagraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToTableCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetFontFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetImageAspectRatioLocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetMultilevelListFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetPageSetupAndSectionFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetParagraphFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetSpacebetweenAsianandLatintext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetTableCellFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderSetTableRowFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentInDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentPageSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenBlockLevelNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenBookmarks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenCommentRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenParagraphStyles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenParagraphs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenRuns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractContentUsingDocumentVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractContentUsingField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractTextOnly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/GenerateACustomBarCodeImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/GetDocumentVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/InsertDocumentIntoAnotherDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ModifyContentControls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ProtectDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/RemovePageAndSectionBreaks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/RichTextBoxContentControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/SetCompatibilityOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/SetCurrentStateOfCheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/SetViewOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/SetupLanguagePreferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/TrackChanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/UseControlCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/WorkingWithFootnote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/WorkingWithSaveOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/WriteAndFont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/properties/AccessingDocumentProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/properties/AddOrRemoveDocumentProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/properties/DocProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/ApplyCustomFieldFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/ChangeFieldUpdateCultureSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/ConvertFieldsInBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/ConvertFieldsInDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/ConvertFieldsInParagraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/EvaluateIFCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/FieldHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/FieldResultFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/FormFieldsGetByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/FormFieldsGetFormFieldsCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/FormFieldsWorkWithProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/GetFieldNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/InsertAuthorField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/InsertField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/InsertFieldNone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/InsertFormFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/InsertINCLUDETEXT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/InsertMailMergeAddressBlockFieldUsingDOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/InsertMergeFieldUsingDOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/InsertNestedFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/InsertTOAField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/LoadOptionsUpdateDirtyFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/RemoveField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/RenameMergeFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/SpecifylocaleAtFieldlevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/UpdateDocFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/UpdateFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/UseOfficeMathProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/find_replace/FindAndHighlightText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/find_replace/FindReplaceUsingMetaCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/find_replace/ReplaceHtmlTextWithMeta_Characters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/find_replace/ReplaceTextWithField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/find_replace/ReplaceWithEvaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/find_replace/ReplaceWithRegex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/find_replace/ReplaceWithString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/images/AddWatermarkToADocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/images/CompressImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/images/ExtractImagesToFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/images/InsertBarcodeImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/images/RemoveWatermark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/AppendDocumentManually.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/BaseDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/ConvertNumPageFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/ConvertNumPageFieldsToPageRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/ConvertNumPageFieldsWithPageRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/DifferentPageSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/GetRemoveField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/JoinContinuous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/JoinNewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/KeepSourceTogether.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/LinkHeadersFooters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/ListKeepSourceFormatting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/ListUseDestinationStyles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/RestartPageNumbering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/SimpleAppendDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/UnlinkHeadersFooters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/UpdatePageLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/joining_appending/UseDestinationStyles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/AddSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/AppendSectionContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/CloneSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/CopySection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/DeleteAllSections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/DeleteHeaderFooterContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/DeleteSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/DeleteSectionContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/RemoveAllSections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/SectionsAccessByIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/signature/SigningSignatureLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/styles/ExtractContentBasedOnStyles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/styles/WorkingWithStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tableofcontents/FindAndInsertATCField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tableofcontents/InsertATableOfContentsField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tableofcontents/InsertATableOfContentsUsingHeadingStyles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tableofcontents/InsertTCField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tableofcontents/ModifyATableOfContents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tableofcontents/RemoveATableOfContents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/ApplyBordersAndShading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/ApplyCellPadding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/ApplyFormattingOnTheCellLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/ApplyFormattingOnTheRowLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/ApplyFormattingOnTheTableLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/FindPreferredWidthTypeAndValueOfATableOrCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/GetTablePosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/SpecifyAPreferredWidthOnATable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/SpecifyPreferredWidthOnACell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/SpecifyRowHeights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/TableStyles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ColumnsAndRows/ApplyAutoFitSettingsToATable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ColumnsAndRows/CheckCellsMerged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ColumnsAndRows/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ColumnsAndRows/FindIndexOfTableElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ColumnsAndRows/JoinAndSplitTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ColumnsAndRows/KeepTablesAndRowsFromBreakingAcrossPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ColumnsAndRows/MergeCellsInARange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ColumnsAndRows/MergeCellsInATable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ColumnsAndRows/SpecifyRowsToRepeatOnSubsequentPagesAsHeaderRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ColumnsAndRows/WorkingWithColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ExtractOrReplaceText/ExtractPlainTextFromATable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ExtractOrReplaceText/ReplaceText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/creation/BuildTableFromDataTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/creation/FormattedTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/creation/InsertCloneOfExistingTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/creation/InsertTableDirectlyIntoDOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/creation/InsertTableFromHtml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/creation/NestedTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/creation/SimpleTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/AppendDocuments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/ApplyLicense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/FindAndReplace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/LoadAndSaveToDisk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/LoadAndSaveToStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/SimpleMailMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/UpdateFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/WorkingWithNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/ControlEmbeddingOfCoreAndSystemFonts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/DocumentPreviewAndPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/EmbedFontsInAdobePDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/HandleDocumentWarnings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/HyphenateWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/MultipagePrintDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/MultiplePagesOnSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/PrintPreviewDialog.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/PrintPreviewDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/ReceiveNotificationOfMissingFontsAndFontSubstitution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/RenderShapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/SaveAsMultipageTiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/SaveImageWithResolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/SetFontSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/SetPdfSaveOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/SpecifyDefaultFontToUseWhenRendering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/SpecifyTrueTypeFontsLocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/WorkingWithFontSources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aspose_aspose_words_jdk16_18_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thedeanda_lorem_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_arnx_wmf2svg_0_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_engio_mbassador_1_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avalon_framework_avalon_framework_api_4_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avalon_framework_avalon_framework_impl_4_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_anim_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_awt_util_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_bridge_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_constants_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_css_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_dom_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_ext_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_extension_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_gvt_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_i18n_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_parser_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_script_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_svg_dom_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_svggen_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_transcoder_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_util_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_batik_xml_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_fop_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlgraphics_xmlgraphics_commons_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_docx4j_6_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_docx4j_docx4j_export_fo_6_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_plutext_jaxb_svg11_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_plutext_jaxb_xslfo_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,9 +418,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DocCoverter$Main.coverage" NAME="Main Coverage Results" MODIFIED="1540300033058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -37,43 +430,72 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Doc4jConvert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
+      <file leaf-file-name="ExtractContentBetweenBookmarks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenBookmarks.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="FindPreferredWidthTypeAndValueOfATableOrCell.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/FindPreferredWidthTypeAndValueOfATableOrCell.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/Manager.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding>
-                <element signature="method#convertDoc2Html#0;class#Doc4jConvert#0" expanded="false" />
-                <element signature="method#convertDoc2Pdf#0;class#Doc4jConvert#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <file leaf-file-name="PageSplitter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/PageSplitter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-              <folding>
-                <element signature="method#doc4jPdfTest#0;class#Main#0" expanded="false" />
-                <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="169">
+              <caret line="495" column="24" selection-start-line="495" selection-start-column="24" selection-end-line="495" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateACustomBarCodeImage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/GenerateACustomBarCodeImage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -86,25 +508,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java" />
-        <option value="$PROJECT_DIR$/hf.fo" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/docx4j/fonts/ChineseFonts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/builder/WordprocessingMLPackageBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/aspose/license.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/DocToPdf.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/aspose/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/examples/linq/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/examples/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/Utils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -117,9 +531,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\env\repository" />
-        <option name="mavenHome" value="D:/env/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\env\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../env/mvn_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../env/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../env/apache-maven-3.5.4/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -132,355 +546,142 @@
         <option value="internal" />
       </list>
     </option>
-    <option name="disabledProfiles">
-      <list>
-        <option value="alimaven" />
-      </list>
-    </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="convert" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="convert" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocCoverter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocCoverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocCoverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocCoverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocCoverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocCoverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocCoverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="js.eslint.eslintPackage" value="" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="E:\DocCoverter\src\main\resources\aspose" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aspose.words.examples" />
+      <recent name="examples" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\DocCoverter\src\main\resources" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\DocCoverter\src\main\resources\aspose" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DocCoverter" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HelloWorld">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aspose.words.examples.quickstart.HelloWorld" />
+      <module name="DocConverter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aspose.words.examples.quickstart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="DocConverter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
     </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
@@ -498,40 +699,14 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
@@ -566,7 +741,6 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
-      <method />
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
       <option name="BCName" value="" />
@@ -580,23 +754,6 @@
       </option>
       <option name="moduleName" value="" />
       <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -605,11 +762,8 @@
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
-      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -619,87 +773,23 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
+      <module name="DocCoverter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DocCoverter" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -712,17 +802,40 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -732,128 +845,92 @@
       <tasks />
       <arguments />
       <envs />
-      <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.HelloWorld" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <list>
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5aa035f9-8db8-4057-a8b6-9ecdd29c696f" name="Default" comment="" />
-      <created>1540282443295</created>
+      <changelist id="d386df81-456d-4b16-85c0-13186ba03bfc" name="Default" comment="" />
+      <created>1540450752321</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540282443295</updated>
-      <workItem from="1540282448048" duration="15314000" />
-      <workItem from="1540347461827" duration="2084000" />
-      <workItem from="1540367304548" duration="1042000" />
-      <workItem from="1540432297740" duration="9362000" />
-      <workItem from="1540448568839" duration="1230000" />
-      <workItem from="1540451244972" duration="1237000" />
+      <updated>1540450752321</updated>
+      <workItem from="1540450756097" duration="6493000" />
     </task>
-    <task id="LOCAL-00001" summary="1st Edition">
-      <created>1540448626667</created>
+    <task id="LOCAL-00001" summary="s">
+      <created>1540453752117</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1540448626667</updated>
+      <updated>1540453752117</updated>
     </task>
-    <task id="LOCAL-00002" summary="2st Edition">
-      <created>1540448682274</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1540448682274</updated>
-    </task>
-    <task id="LOCAL-00003" summary="2st Edition 新增html 转化测试">
-      <created>1540451888349</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1540451888349</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30269000" />
+    <option name="totallyTimeSpent" value="6493000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.4927798" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37486458" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10127932" sideWeight="0.5072202" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49785408" weight="0.32848486" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5028612" side_tool="true" weight="0.39944133" />
+      <window_info anchor="right" id="Maven Projects" weight="0.3297568" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Learn" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49713877" visible="true" weight="0.34666666" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="1st Edition" />
-    <MESSAGE value="2st Edition" />
-    <MESSAGE value="2st Edition 新增html 转化测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="2st Edition 新增html 转化测试" />
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -861,401 +938,190 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="83" lean-forward="false" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
-          <folding>
-            <element signature="method#convertDoc2Html#0;class#Doc4jConvert#0" expanded="false" />
-            <element signature="method#convertDoc2Pdf#0;class#Doc4jConvert#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://D:/env/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PropertyConfigurator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="103" column="54" lean-forward="false" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aspose/Aspose.Total.Java.lic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="226" column="11" lean-forward="false" selection-start-line="226" selection-start-column="11" selection-end-line="226" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="method#doc4jPdfTest#0;class#Main#0" expanded="false" />
-            <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hf.fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2107" lean-forward="false" selection-start-line="0" selection-start-column="2105" selection-end-line="0" selection-end-column="2107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="83" lean-forward="false" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
-          <folding>
-            <element signature="method#convertDoc2Html#0;class#Doc4jConvert#0" expanded="false" />
-            <element signature="method#convertDoc2Pdf#0;class#Doc4jConvert#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/docx4j/fonts/ChineseFonts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hf.fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2107" lean-forward="false" selection-start-line="0" selection-start-column="2105" selection-end-line="0" selection-end-column="2107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1359" lean-forward="false" selection-start-line="0" selection-start-column="1357" selection-end-line="0" selection-end-column="1359" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hf.fo" />
+    <entry file="file://$PROJECT_DIR$/test.fo" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="12" column="107" lean-forward="false" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
-          <folding>
-            <element signature="method#doc4jPdfTest#0;class#Main#0" expanded="false" />
-            <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="87" column="44" lean-forward="false" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-          <folding>
-            <element signature="method#convertDoc2Html#0;class#Doc4jConvert#0" expanded="false" />
-            <element signature="method#convertDoc2Pdf#0;class#Doc4jConvert#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/docx4j/fonts/ChineseFonts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hf.fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2107" lean-forward="false" selection-start-line="0" selection-start-column="2105" selection-end-line="0" selection-end-column="2107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1359" lean-forward="false" selection-start-line="0" selection-start-column="1357" selection-end-line="0" selection-end-column="1359" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="107" lean-forward="false" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
-          <folding>
-            <element signature="method#doc4jPdfTest#0;class#Main#0" expanded="false" />
-            <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#convertDoc2Html#0;class#Doc4jConvert#0" expanded="false" />
-            <element signature="method#convertDoc2Pdf#0;class#Doc4jConvert#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hf.fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2107" lean-forward="false" selection-start-line="0" selection-start-column="2105" selection-end-line="0" selection-end-column="2107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1359" lean-forward="false" selection-start-line="0" selection-start-column="1357" selection-end-line="0" selection-end-column="1359" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="107" lean-forward="false" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
-          <folding>
-            <element signature="method#doc4jPdfTest#0;class#Main#0" expanded="false" />
-            <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
-          </folding>
+          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert.java" />
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/2.8.1/docx4j-2.8.1.jar!/org/docx4j/convert/out/html/AbstractHtmlExporter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="115" column="24" lean-forward="true" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/model/fields/FieldUpdater.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/2.8.1/docx4j-2.8.1.jar!/org/docx4j/convert/out/html/AbstractHtmlExporter.class" />
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class" />
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/model/fields/FieldUpdater.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/Docx4J.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="443" column="0" lean-forward="false" selection-start-line="443" selection-start-column="0" selection-end-line="443" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/fonts/PhysicalFonts.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/Docx4J.class" />
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/fonts/PhysicalFonts.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/docx4j/fonts/doc4j/builder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/builder/WordprocessingMLPackageBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/docx4j/fonts/ChineseFonts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/aspose/license.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/aspose/license.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/aspose/license.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/DocToPdf.java" />
+    <entry file="jar://D:/env/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PropertyConfigurator.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aspose/Aspose.Total.Java.lic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hf.fo" />
+    <entry file="file://$PROJECT_DIR$/test.fo" />
+    <entry file="jar://D:/env/repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/Document.class" />
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/convert/out/HTMLSettings.class" />
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/convert/out/AbstractConversionSettings.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_files/7cc40ff3-234f-4fe3-bbd9-524e2e3adec1image1.tiff">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_files/60fddd20-4674-4888-a3b1-209d91b9ef9bimage3.tiff">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_files/60fddd20-4674-4888-a3b1-209d91b9ef9bimage4.tiff">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_files/60fddd20-4674-4888-a3b1-209d91b9ef9bimage6.tiff">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="144" column="13" selection-start-line="144" selection-start-column="13" selection-end-line="144" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../env/mvn_repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="670" column="53" selection-start-line="670" selection-start-column="53" selection-end-line="670" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="54" />
+        <state relative-caret-position="403">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/find_replace/ReplaceWithRegex.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/ConvertFieldsInParagraph.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/OpenDocument.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/sections/AddSection.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/DocumentBuilderInsertComboBoxFormField.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/EmbedFontsInAdobePDF.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/InsertFormFields.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenBookmarks.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/tables/ApplyFormatting/FindPreferredWidthTypeAndValueOfATableOrCell.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/linq/Manager.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/PageSplitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="495" column="24" selection-start-line="495" selection-start-column="24" selection-end-line="495" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/GenerateACustomBarCodeImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="245" column="46" lean-forward="true" selection-start-line="245" selection-start-column="46" selection-end-line="245" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer/MainForm.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="19" lean-forward="false" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PropertyConfigurator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="103" column="54" lean-forward="false" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aspose/Aspose.Total.Java.lic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hf.fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2107" lean-forward="false" selection-start-line="0" selection-start-column="2105" selection-end-line="0" selection-end-column="2107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.fo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="226" column="11" lean-forward="false" selection-start-line="226" selection-start-column="11" selection-end-line="226" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/convert/out/HTMLSettings.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="26" />
-          <folding>
-            <element signature="e#2245#2246#0" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/convert/out/AbstractConversionSettings.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-          <folding>
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="method#convertDoc2Html#0;class#Doc4jConvert#0" expanded="false" />
-            <element signature="method#convertDoc2Pdf#0;class#Doc4jConvert#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="method#doc4jPdfTest#0;class#Main#0" expanded="false" />
-            <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="312">
+          <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
         </state>
       </provider>
     </entry>

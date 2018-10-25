@@ -1,8 +1,6 @@
 package com.tencent.fm.convert.Impl;
 
-import com.aspose.words.Document;
-import com.aspose.words.License;
-import com.aspose.words.SaveFormat;
+import com.aspose.words.*;
 import com.tencent.fm.convert.Convert;
 
 import java.io.InputStream;
@@ -47,7 +45,21 @@ public class AsposeConvert implements Convert {
 
 
     public void convertDoc2Html(InputStream inputStream, OutputStream outputStream) {
+        try {
+            // 验证License
+            if (!getLicense()) {
+                return;
+            }
+            Document doc = new Document(inputStream);
+            HtmlSaveOptions hso = new HtmlSaveOptions();
+            hso.setExportRoundtripInformation(true);
+            HtmlSaveOptions options = new HtmlSaveOptions();
+            options.setMetafileFormat(HtmlMetafileFormat.EMF_OR_WMF);
 
+            doc.save(outputStream, hso);//全面支持DOC, DOCX, OOXML, RTF HTML, OpenDocument, PDF, EPUB, XPS, SWF 相互转换
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void convertDoc2Pdf(InputStream inputStream, OutputStream outputStream) {
