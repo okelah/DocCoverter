@@ -21,14 +21,14 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-//        String testfile="mac_edit.docx";
+//        String testfile="my.docx";
 //        String testfile = "mac-edit.docx";
 //        String testfile = "chart.docx";
 //        doc4jHtmlTest(testfile);
 //        doc4jHtmlTest(testfile);
 //        asposeHtmlTest(testfile);
 //        asposeHtmlTest(testfile);
-        saveHtmlWithMetafileFormat("E:\\ConvertTest\\");
+//        saveHtmlWithMetafileFormat("E:\\ConvertTest\\");
 //        doc4jPdfTest(testfile);
 //        doc4jPdfTest(testfile);
 //        asposePdfTest(testfile);
@@ -50,17 +50,18 @@ public class Main {
     }
 
     static void doc4jPdfTest(String filename) throws Exception {
-//        String pathInput = "E:\\ConvertTest\\" + filename;
-//        String pathOutput = "E:\\ConvertTest\\doc4j\\" + filename.substring(0, filename.indexOf(".")) + ".pdf";
-        String pathInput = "/Users/null/Documents/SelfStudy/" + filename;
-        String pathOutput = "/Users/null/Documents/SelfStudy/" + filename.substring(0, filename.indexOf(".")) + ".html";
+        String pathInput = "E:\\ConvertTest\\" + filename;
+        String pathOutput = "E:\\ConvertTest\\doc4j\\" + filename.substring(0, filename.indexOf(".")) + ".pdf";
+//        String pathInput = "/Users/null/Documents/SelfStudy/" + filename;
+//        String pathOutput = "/Users/null/Documents/SelfStudy/" + filename.substring(0, filename.indexOf(".")) + ".html";
 
         long doc4jStartTime = System.currentTimeMillis();
         // doc4jConvert
         FileInputStream fileInputStream = new FileInputStream(new File(pathInput));
         FileOutputStream fileOutputStream = new FileOutputStream(new File(pathOutput));
         Convert doc4jConvert = new Doc4jConvert();
-        doc4jConvert.convertDoc2Pdf(fileInputStream, fileOutputStream);
+//        doc4jConvert.convertDoc2Pdf(fileInputStream, fileOutputStream);
+        doc4jConvert.convertDoc2Pdf(pathInput, pathOutput);
         long doc4jEndTime = System.currentTimeMillis();
         logger.info("doc4j cost {} ms", doc4jEndTime - doc4jStartTime);
     }
@@ -77,7 +78,7 @@ public class Main {
         FileOutputStream fileOutputStream = new FileOutputStream(new File(pathOutput));
 
         Convert asposeConvert = new AsposeConvert();
-        asposeConvert.convertDoc2Pdf(fileInputStream, fileOutputStream);
+//        asposeConvert.convertDoc2Pdf(fileInputStream, fileOutputStream);
         long asposeEndTime = System.currentTimeMillis();
         logger.info("aspose cost {} ms", asposeEndTime - asposeStartTime);
     }
@@ -92,7 +93,7 @@ public class Main {
         FileInputStream fileInputStream = new FileInputStream(new File(pathInput));
         FileOutputStream fileOutputStream = new FileOutputStream(new File(pathOutput));
         Convert convert = new Doc4jConvert();
-        convert.convertDoc2Html(fileInputStream, fileOutputStream);
+//        convert.convertDoc2Html(fileInputStream, fileOutputStream);
         long doc4jEndTime = System.currentTimeMillis();
         logger.info("aspose cost {} ms", doc4jStartTime - doc4jEndTime);
     }
@@ -107,7 +108,7 @@ public class Main {
         FileInputStream fileInputStream = new FileInputStream(new File(pathInput));
         FileOutputStream fileOutputStream = new FileOutputStream(new File(pathOutput));
         Convert convert = new AsposeConvert();
-        convert.convertDoc2Html(fileInputStream, fileOutputStream);
+//        convert.convertDoc2Html(fileInputStream, fileOutputStream);
         long doc4jEndTime = System.currentTimeMillis();
         logger.info("aspose cost {} ms", doc4jStartTime - doc4jEndTime);
     }

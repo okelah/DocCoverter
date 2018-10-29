@@ -2,18 +2,245 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa035f9-8db8-4057-a8b6-9ecdd29c696f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/convert/Convert.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/convert/Impl/AsposeConvert.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/convert/Impl/Doc4jConvert.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/tencent/fm/docx4j/fonts/ChineseFonts.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/AsposeTest.pfx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Blank.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Book1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/CustomFonts/CatsAlphabet.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/NonBlank.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Query TXT.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/SampleTextboxExcel2016.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Students.accdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/XML Data.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/newPdfSaveOptions_StreamProvider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/oldPdfSaveOptions_StreamProvider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/pivot_table_test.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleAccessAndModifyLabelOfOleObject.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleAdvancedFilter.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleAutoPopulateSmartMarkerDataToOtherWorksheets.accdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleCalculationMonitor.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleControlExternalResourcesUsingWorkbookSetting_StreamProvider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleControlExternalResourcesUsingWorkbookSetting_StreamProvider.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleCreateChartPDFWithDesiredPageSize.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleCreatePdfBookmarkEntryForChartSheet.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleCreateSlicerToPivotTable.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleDesignerForm.xlsm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleDigitallySignedByCells.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleDisableDownlevelRevealedComments.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleEncryptedODSFile.ods" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleErrorExcel2Pdf.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleExportCommentsHTML.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleExportSimilarBorderStyle.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleExternalConnection_XLSB.xlsb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleExtractTextFromGearTypeSmartArtShape.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleFindAndRefreshNestedOrChildrenPivotTables.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleFindIfWorksheetIsDialogSheet.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleFormattingSlicer.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleGroupPivotFieldsInPivotTable.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleHtmlCrossStringType.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleImageOrPrintOptions_PageIndexPageCount.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleImportTableOptionsShiftFirstRowDown.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleNumbersByAppleInc.numbers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleODSFile.ods" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/samplePageSetupIsAutomaticPaperSize-False.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/samplePageSetupIsAutomaticPaperSize-True.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleParsingPivotCachedRecordsWhileLoadingExcelFile.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/samplePdfBookmarkEntry_DestinationName.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/samplePdfSaveOptions_StreamProvider.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleReadAxisLabelsAfterCalculatingTheChart.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRemoveExistingPrinterSettingsOfWorksheets.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRemovingSlicer.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRenderOfficeAdd-Ins.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRenderingSlicer.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRootElementNameOfXmlMap.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRotateTextWithShapeInsideWorksheet.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRussianGlobalization.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSeries_ValuesFormatCode.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSetShapeTypeOfDataLabelsOfChart.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSheetId.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSmartArtShape.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSmartArtShape_GetResultOfSmartArt.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSortData_CustomSortList.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleTextureFill_IsTiling.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleToFrontOrBack.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleUpdatingSlicer.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleXmlMapQuery.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sourceWithCustProps.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sourseSampleCountryNames.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/ACToPdf_out.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/FilteredBlank.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/FilteredNonBlank.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/destination.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outSourceWithCustProps.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outSourseSampleCountryNames.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outputChangeCellsAlignmentAndKeepExistingFormatting.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outputDecryptedODSFile.ods" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outputEncryptedODSFile.ods" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outputExternalConnection_XLSB.xlsb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/CellsHelperClass/Book1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/CellsHelperClass/Book2.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/ModifyCharts.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/SettingChartLines_out.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/book1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/chart.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/excel2016Charts.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Data/Book1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Data/book1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Data/mergingcells.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Data/sampleSortAsNumber.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/Book1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/Excel_File0.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/book1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/sourceGlowEffectColor.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/tempBook1ole0.Xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Formulas/Book1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Formulas/Book1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Formulas/sample1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Formulas/test.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Introduction/Book1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Introduction/Book1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book2.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book_Excel2007.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book_Excel97_2003.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/E2PDFC-out.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/MyTestBook1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/encryptedBook.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/sampleDuplicateDefinedName.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/sampleTrimBlankColumns.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/PivotTables/PivotTable.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/PivotTables/sample1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/PivotTables/samplePivotTableGlobalizationSettings.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RowsAndColumns/Book1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RowsAndColumns/BookStyles.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RowsAndColumns/book1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/SmartMarkers/TestSmartMarkers.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Tables/List_Object.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Tables/book1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Tables/listBook.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Tables/sample.xlsm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/ATFromCell.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/AddWordArtText_out.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/BackImageSheet.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/BookStyles.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Book_SourceData.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CheckWorkbookContainsHiddenExternalLinks_in.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Controls.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CopyRange.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CopyRangeData.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CopyRangeDataWithFormatting.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CopyRangeStyleOnly.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CustomThemeColor.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CustomerReport.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/FormatWorksheet.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/FormatWorksheet.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/ImageHyperlink.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/InsertedImage.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/LinkCellstoXmlMapElements_in.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/MergeTrial.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/MyTestBook1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/PageSetup.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/PieBars.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/PieChart.emf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/PieChart.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Sample1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SampleChart.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SampleImage.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SampleInput.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SetPresetWordArtStyle_out.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Shapes.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SheetImage.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SheetImage.tiff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Styles.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Subscript.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Superscript.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Test.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/TestBook.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/TestData.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WebQuerySample.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WorkingWithGlowEffect_in.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WorkingWithReflectionEffect_in.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WorkingWithShadowEffect_in.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WorkingWithThreeDFormat_in.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WrappingText.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/aspose-logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/aspose-sample.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/autofitmergedcells.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/book2.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/character-spacing.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/chord.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/column_chart.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/connection.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/copyrangestyle.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/encryptedBook1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/image2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/imgIcon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/oleFile.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/pivotChart_test.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/pivotTable_test.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/pivotTable_test.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/report.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample.xlsm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sampleFilterCharts.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sampleFilterDifferentObjects.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sampleGetFonts.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample_Export-Xml-Data-linked.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/source.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sourceGradientFill.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/testModel Inputs Page1.tif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/webimagebook.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/~$Controls.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/~$Shapes.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/WorkbookVBAProject/sampleCheckifVBAProjectisProtected.xlsm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/WorkbookVBAProject/samplePasswordProtectVBAProject.xlsm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/BkFinance.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/FinalBook.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/SampleXLSFile_38kb.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/book.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/book1.xls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/book1.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/footer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/school.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hf.fo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Note.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/Note.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book1TabDelimited.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book_CSV.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CustomUI.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/MultiEncoded.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/aspose/Aspose.Total.Java.lic" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/aspose/license.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.fo" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aspose_aspose_words_javadoc_18_10.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/RenderShapes/TestFile.RenderToGraphics.png" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/RenderShapes/TestFile.RenderToGraphics.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocCoverter.iml" afterPath="$PROJECT_DIR$/DocCoverter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,14 +267,34 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ConvertADocumentToMHTMLAndEmail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertADocumentToMHTMLAndEmail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="176">
+              <caret line="16" column="73" lean-forward="false" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertCheckBoxesOrHTMLDuringMailMerge.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/InsertCheckBoxesOrHTMLDuringMailMerge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsposeConvert.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2552">
+              <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
               <folding>
-                <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +315,7 @@
       <find>等线</find>
       <find>cost</find>
       <find>userCSS</find>
+      <find>PMingLiU</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,18 +329,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java" />
         <option value="$PROJECT_DIR$/hf.fo" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/docx4j/fonts/ChineseFonts.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/builder/WordprocessingMLPackageBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/resources/aspose/license.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/DocToPdf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/aspose/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/UpdateFields.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/MultiplePagesOnSheet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/FormFieldsWorkWithProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AsposeCellsExamples/DrawingObjects/AddingLabelControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/DigitallySignedPdf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" />
       </list>
     </option>
   </component>
@@ -117,17 +370,28 @@
     </option>
     <option name="enabledProfiles">
       <list>
-        <option value="internal" />
+        <option value="alimaven" />
       </list>
     </option>
     <option name="disabledProfiles">
       <list>
-        <option value="alimaven" />
+        <option value="internal" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Profiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -154,7 +418,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,7 +574,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="fm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,23 +611,16 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rendering_printing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.general" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Aspose.Cells-for-Java-master" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -365,575 +629,21 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\programming_documents\images\InsertBarcodeImage" />
-      <recent name="E:\DocCoverter\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\trunk\DocCoverter\src\main\java" />
+      <recent name="E:\trunk\DocCoverter\src\main\resources" />
+      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\SimpleMailMerge" />
+      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\FindAndReplace" />
+      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\AppendDocuments" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aspose.words.examples" />
       <recent name="examples" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\SimpleMailMerge" />
-      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\FindAndReplace" />
-      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\AppendDocuments" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="E:\DocCoverter\src\main\resources\aspose" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\programming_documents\images\InsertBarcodeImage" />
+      <recent name="E:\DocCoverter\src\main\resources" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Barcode/Document.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Barcode/GenerateACustomBarCodeImage.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Document/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Document/DocumentA.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Document/DocumentB.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Document/Properties.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Document/Revisions.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Document/TestFile.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/DocumentObjectModel/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/DocumentObjectModel/Node.RecurseAllNodes.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/ExtractedSelectedContentBetweenNodes/Visitor.ToText.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Fields/RenameMergeFields.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/FindAndReplace/Field.ReplaceTextWithFields.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/FindAndReplace/Range.ReplaceWithEvaluator.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/FindAndReplace/ReplaceWithRegex.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/FindAndReplace/ReplaceWithString.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/FindAndReplace/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/HeadersAndFooters/Aspose.Words.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/HeadersAndFooters/HeaderFooter.RemoveFooters.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Hyperlink/ReplaceHyperlinks.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/InsertDocumentIntoAnother/InsertDocument1.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/InsertDocumentIntoAnother/InsertDocument2.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/LoadingSavingAndConverting/Document.Signed.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/LoadingSavingAndConverting/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/LoadingSavingAndConverting/Test File (doc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/Customers.mdb</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/Customers.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/Invoice Template.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/InvoiceDB.mdb</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/MailMerge.AlternatingRows.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/MailMerge.ExecuteArray.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/MailMerge.ExecuteWithRegions.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/MailMerge.MergeImage.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/MailMergeSwitches.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/Northwind.mdb</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/Template.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/TestFile.Multiple Pages.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/VendorTemplate.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/MailMerge/Vendors.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/RenderingAndPrinting/Fallback.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/RenderingAndPrinting/Rendering.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/RenderingAndPrinting/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/RenderingAndPrinting/hyph_de_CH.dic</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/RenderingAndPrinting/hyph_en_US.dic</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/RenderingAndPrinting/in.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Styles/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/TableOfContents/Document.TableOfContents.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Tables/Table.Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Tables/Table.EmptyTable.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Tables/Table.MergedCells.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Tables/Table.SimpleTable.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Tables/Table.TableAcrossPage.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Tables/Table.TableStyle.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Tables/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/BubbleChart/BubbleChart.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/BuildOptions/template_cleanup.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/BulletedList/BulletedList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/ChartWithFilteringGroupingOrdering/ChartWithFilteringGroupingOrdering.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/Common/photo.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/CommonList/CommonList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/CommonMasterDetail/CommonMasterDetail.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/HelloWorld/HelloWorld.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/InParagraphList/InParagraphList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/InTableAlternateContent/InTableAlternateContent - Copy.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/InTableAlternateContent/InTableAlternateContent.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/InTableAlternateContent/InTableList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/InTableList/InTableList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/InTableMasterDetail/InTableMasterDetail.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/InTableRow/InTableRow.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/InTableWithFilteringGroupingSorting/InTableWithFilteringGroupingSorting.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/MulticoloredNumberedList/MulticoloredNumberedList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/NumberedList/NumberedList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/PieChart/PieChart.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/ScatterChart/ScatterChart.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/SettingBackgroundColor/SettingBackgroundColor.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/linq/SingleRow/SingleRow.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (HTML).html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (JPG).jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (MHTML).mhtml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (WordML).xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (XML).xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (doc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (docm).docm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (docx).docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (dot).dot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (dotx).dotx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (enc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (enc).docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (odt).odt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (pre97).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormat/Test File (rtf).rtf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (HTML).html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (JPG).jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (MHTML).mhtml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (WordML).xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (XML).xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (doc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (docm).docm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (docx).docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (dot).dot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (dotx).dotx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (enc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (enc).docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (odt).odt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (pre97).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/CheckFormatCompatibility/Test File (rtf).rtf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertDocumentToByte/Test File (doc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertDocumentToEPUB/Document.EpubConversion.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertDocumentToEPUBUysingDefaultSaveOptions/Document.EpubConversion.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertDocumentToHtmlWithRoundtrip/Test File (doc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertDocumentToPCL/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ConvertImageToPdf/Test.bmp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/DetectDocumentSignatures/Document.Signed.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/DetectDocumentSignatures/Document.Signed.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/DigitallySignedPdf/Document.Signed.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/DisplayDocTitleInWindowTitlebar/Test File (doc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/Doc2PDF/Template.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ExportFontsAsBase64/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions/Resources/Resources.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (HTML).html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (JPG).jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (MHTML).mhtml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (WordML).xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (XML).xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (doc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (docm).docm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (docx).docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (dot).dot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (dotx).dotx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (enc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (enc).docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (odt).odt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (pre97).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/GetListOfFilesInFolder/Test File (rtf).rtf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ImageToPdf/Test.bmp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ImageToPdf/Test.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ImageToPdf/Test.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/ImageToPdf/Test.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadAndSave/Test File (doc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadAndSaveDocToDatabase/Test File (doc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadAndSaveHtmlFormFieldasContentControlinDOCX/input.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadAndSaveToStream/Test File (doc).doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadEncryptedDoc/LoadEncrypted.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/LoadTxt/LoadTxt.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/Load_Options/AnnotationsAtBlockLevel.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/Load_Options/OfficeMath.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/Load_Options/encrypted.odt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/Load_Options/input.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/OpenDocUsingStream/test.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/OpenDocument/test.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/OpenEncryptedDocument/LoadEncrypted.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/PageSplitter/Rendering.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/PageSplitter/Sample Documentation.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/SaveDocWithHtmlSaveOptions/CidUrls.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/SaveDocWithHtmlSaveOptions/Document.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/SendToClientBrowser/test.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/SpecifySaveOption/TestFile RenderShape.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/SplitIntoHtmlPages/SOI 2007-2012-DeeM with footnote added.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/SplitIntoHtmlPages/TocTemplate.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/Word2Help/Sample Documentation.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/Word2Help/banner.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/Word2Help/footer.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/Word2Help/header.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/WorkingWithRTF/Utf8Text.rtf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/WorkingWithTxt/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/WorkingWithTxt/Input.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/loading_saving/WorkingWithTxt/LoadTxt.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/ApplyCustomLogicToEmptyRegions/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/MailMergeAndConditionalField/UnconditionalMergeFieldsAndRegions.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/MailMergeFormFields/Template.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/MailMergeUsingMustacheSyntax/VendorTemplate.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/MailMergeUsingMustacheSyntax/Vendors.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/MultipleDocsInMailMerge/Customers.mdb</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/MultipleDocsInMailMerge/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/MustacheTemplateSyntax/ExecuteTemplate.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/MustacheTemplateSyntax/Orders.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/MustacheTemplateSyntax/Output.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/MustacheTemplateSyntax/Output.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/NestedMailMerge/Invoice Template.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/NestedMailMerge/InvoiceDB.mdb</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/RemoveEmptyRegions/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/RemoveRowsFromTable/RemoveTableRows.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/RemoveUnmergedRegions/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/SimpleMailMerge/MailMerge.ExecuteArray.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/XMLMailMerge/Customers.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/mail_merge/XMLMailMerge/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/Hyperlink/ReplaceHyperlinks/ReplaceHyperlinks.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/Ranges/RangesDeleteText/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/Ranges/RangesGetText/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/Shapes/WorkingWithShapes/Test.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/StructuredDocumentTag/WorkingWithStructuredDocumentTag/input.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/Theme/GetThemeProperties/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/Theme/SetThemeProperties/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/AccessBookmarks/Bookmark.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/BookmarkNameAndText/Bookmark.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/CopyBookmarkedText/Template.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/GetAndSetBookmarkNameAndText/Bookmark.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/ObtainBookmarkByIndexAndName/Bookmarks.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/bookmarks/UntangleRowBookmarks/TestDefect1352.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/AddRemoveCommentReply/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/ExtractComments/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/ExtractCommentsByAuthor/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/ProcessComments/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/RemoveCommentRegionText/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/RemoveComments/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/comments/RemoveCommentsByAuthor/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ClearContentsControl/input.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/CompareDocumentWithComparisonTarget/TestFile - Copy.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/CompareDocumentWithComparisonTarget/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/CompareTwoWordDocumentswithCompareOptions/DocumentA.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/CompareTwoWordDocumentswithCompareOptions/DocumentB.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderCursorPosition/DocumentBuilder.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderInsertElements/input.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderInsertFloatingImage/test.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderInsertInlineImage/test.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToBookmark/DocumentBuilder.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToBookmarkEnd/DocumentBuilder.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToMergeField/DocumentBuilder.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToNode/DocumentBuilder.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToParagraph/DocumentBuilder.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToSection/DocumentBuilder.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderMoveToTableCell/DocumentBuilder.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderSetFormatting/Input.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentBuilderSetImageAspectRatioLocked/Test.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentInDB/DocDB.mdb</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/DocumentInDB/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenBlockLevelNodes/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenBookmarks/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenCommentRange/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenParagraphStyles/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenParagraphs/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentBetweenRuns/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ExtractContentUsingField/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ModifyContentControls/CheckBoxTypeContentControl.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ModifyContentControls/Watermark.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/RemovePageAndSectionBreaks/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ReplaceWithEvaluator/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ReplaceWithRegex/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/ReplaceWithString/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/SetCompatibilityOptions/TestFile.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/SetCurrentStateOfCheckBox/CheckBoxTypeContentControl.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/SetupLanguagePreferences/languagepreferences.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/WorkingWithSaveOptions/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/document/properties/DocProperties/Properties.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/ConvertFieldsInBody/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/ConvertFieldsInDocument/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/ConvertFieldsInParagraph/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/FormFieldsGetByName/FormFields.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/FormFieldsGetFormFieldsCollection/FormFields.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/FormFieldsWorkWithProperties/FormFields.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/GetFieldNames/Rendering.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertAuthorField/in.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertINCLUDETEXT/IncludeText.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertINCLUDETEXT/in.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertMailMergeAddressBlockFieldUsingDOM/in.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertMergeFieldUsingDOM/in.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/InsertTOAField/in.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/RemoveField/Field.RemoveField.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/UpdateDocFields/Rendering.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/fields/UseOfficeMathProperties/MathEquations.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/find_replace/FindAndHighlight/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/find_replace/ReplaceTextWithField/Field.ReplaceTextWithFields.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/find_replace/ReplaceWithEvaluator/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/find_replace/ReplaceWithRegex/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/find_replace/ReplaceWithString/test.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/images/AddWatermark/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/images/CompressImages/Test.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/images/ExtractImagesToFiles/Image.SampleImages.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/images/InsertBarcodeImage/Image.SampleImages.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/images/RemoveWatermark/RemoveWatermark.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/AppendDocumentManually/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/AppendDocumentManually/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/BaseDocument/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/BaseDocument/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/BaseDocument/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/BaseDocument/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/BaseDocument/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ConvertNumPageFields/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/DifferentPageSetup/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinContinuous/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinContinuous/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinContinuous/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinContinuous/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinContinuous/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinNewPage/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/JoinNewPage/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceFormatting/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/KeepSourceTogether/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/LinkHeadersFooters/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListKeepSourceFormatting/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/ListUseDestinationStyles/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RemoveSourceHeadersFooters/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/RestartPageNumbering/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/SimpleAppendDocument/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UnlinkHeadersFooters/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UpdatePageLayout/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.DestinationList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.SourceList.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/joining_appending/UseDestinationStyles/TestFile.SourcePageSetup.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/sections/DeleteAllSections/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/sections/SectionsAccessByIndex/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/sections/SectionsAccessByIndex/Section.AddRemove.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/sections/SectionsAccessByIndex/Section.AppendContent.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/signature/SigningSignatureLine/Document.Signed.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/signature/SigningSignatureLine/SignatureImage.emf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/styles/ExtractContentBasedOnStyles/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/styles/WorkingWithStyle/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/styles/WorkingWithStyle/template.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/AddRemoveColumn/InsertBlankColumn/Table.SimpleTable.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyFormatting/BuildTableWithBordersEnabled/Table.EmptyTable.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyFormatting/GetTablePosition/FloatingTablePosition.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyFormatting/GetTablePosition/Table.Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyFormatting/ModifyCellFormatting/Table.Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyFormatting/ModifyRowFormatting/Table.Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ApplyStyle/ExpandFormattingOnCellsAndRowFromStyle/Table.TableStyle.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/AutoFitTableToContents/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/AutoFitTableToFixedWidthColumns/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/AutoFitTableToPageWidth/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/AutoFitTableToWindow/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/CloneTable/CloneCompleteTable/Table.SimpleTable.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/CloneTable/CloneLastRow/Table.SimpleTable.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ExtractOrReplaceText/ExtractText/Table.Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ExtractOrReplaceText/ExtractText/test.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ExtractOrReplaceText/PrintTextRangeOFRowAndTable/Table.Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/ExtractOrReplaceText/ReplaceText/Table.SimpleTable.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/FindingIndex/RetrieveCellIndex/Table.Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/FindingIndex/RetrieveRowIndex/Table.Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/FindingIndex/RetrieveTableIndex/test.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/JoiningAndSplittingTable/CombineRows/Table.Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/JoiningAndSplittingTable/SplitTable/Table.Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/JoiningAndSplittingTable/SplitTable/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/KeepTablesAndRowsBreaking/RowFormatDisableBreakAcrossPages/Table.TableAcrossPage.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/KeepTablesAndRowsBreaking/RowFormatDisableBreakAcrossPages/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/MergedCells/CheckCellsMerged/Table.TableAcrossPage.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/programming_documents/tables/SpecifyHeightAndWidth/RetrievePreferredWidthType/Table.SimpleTable.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/quickstart/AppendDocuments/TestFile.Destination.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/quickstart/AppendDocuments/TestFile.Source.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/quickstart/FindAndReplace/ReplaceSimple.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/quickstart/LoadAndSaveToDisk/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/quickstart/LoadAndSaveToStream/Document.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/quickstart/SimpleMailMerge/Template.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/rendering_printing/DocumentPreviewAndPrint/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/rendering_printing/RenderShapes/TestFile.RenderToGraphics.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/rendering_printing/RenderShapes/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/rendering_printing/RenderShapes/TestFile.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/rendering_printing/SaveAsMultipageTiff/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/rendering_printing/SaveImageWithResolution/TestFile.doc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/rendering_printing/SetPdfSaveOptions/EscapeUri.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/rendering_printing/SetPdfSaveOptions/TestFile.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/rendering_printing/WorkingWithFontSources/TestFile.docx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/App.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Body.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/BookmarkEnd.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/BookmarkStart.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Cell.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Comment.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/CommentRangeEnd.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/CommentRangeStart.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/CustomXmlMarkup.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Document.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/DrawingML.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FieldEnd.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FieldSeparator.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FieldStart.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Footer.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Footnote.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormCheckBox.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormDropDown.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormField.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/FormTextInput.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/GroupShape.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Header.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/HeaderFooter.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/InlineShape.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Node.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/OfficeMath.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/OleControl.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/OleObject.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Paragraph.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Row.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Run.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Section.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Shape.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/SmartTag.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/SpecialChar.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/StructuredDocumentTag.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/Table.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/aspose.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_1.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_2.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_3.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_4.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/examples/viewers_visualizers/document_explorer/DocumentExplorer/images/tlb_5.gif</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -948,92 +658,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="UpdateFields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.aspose.words.examples.quickstart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.aspose.words.examples.quickstart.UpdateFields" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DocCoverter" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="GetThemeProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.aspose.words.examples.programming_documents.Theme.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.aspose.words.examples.programming_documents.Theme.GetThemeProperties" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DocCoverter" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="AccessBookmarks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.aspose.words.examples.programming_documents.bookmarks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.aspose.words.examples.programming_documents.bookmarks.AccessBookmarks" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DocCoverter" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="InsertBarcodeImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.aspose.words.examples.programming_documents.images.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.aspose.words.examples.programming_documents.images.InsertBarcodeImage" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="DocCoverter" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1407,20 +1037,12 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.UpdateFields" />
-      <item index="1" class="java.lang.String" itemvalue="Application.GetThemeProperties" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AccessBookmarks" />
-      <item index="3" class="java.lang.String" itemvalue="Application.InsertBarcodeImage" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InsertBarcodeImage" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AccessBookmarks" />
-        <item index="3" class="java.lang.String" itemvalue="Application.GetThemeProperties" />
-        <item index="4" class="java.lang.String" itemvalue="Application.UpdateFields" />
       </list>
     </recent_temporary>
   </component>
@@ -1442,7 +1064,8 @@
       <workItem from="1540367304548" duration="1042000" />
       <workItem from="1540432297740" duration="9362000" />
       <workItem from="1540448568839" duration="1230000" />
-      <workItem from="1540451244972" duration="6956000" />
+      <workItem from="1540451244972" duration="9619000" />
+      <workItem from="1540778095667" duration="17023000" />
     </task>
     <task id="LOCAL-00001" summary="1st Edition">
       <created>1540448626667</created>
@@ -1479,11 +1102,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540469659106</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="提价版本">
+      <created>1540470889405</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540470889405</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35988000" />
+    <option name="totallyTimeSpent" value="55674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1492,27 +1122,27 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19083156" sideWeight="0.4927798" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32622603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4067245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4067245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1534,11 +1164,12 @@
     <MESSAGE value="2st Edition" />
     <MESSAGE value="2st Edition 新增html 转化测试" />
     <MESSAGE value="整理测试环境" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理测试环境" />
+    <MESSAGE value="提价版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="提价版本" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1547,275 +1178,426 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/env/repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/Document.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/Word2Help.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="226" column="11" lean-forward="false" selection-start-line="226" selection-start-column="11" selection-end-line="226" selection-end-column="11" />
+        <state relative-caret-position="-1430">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/convert/out/HTMLSettings.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/DocumentPreviewAndPrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="26" />
-          <folding>
-            <element signature="e#2245#2246#0" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/convert/out/AbstractConversionSettings.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/MultiplePagesOnSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-          <folding>
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#convertDoc2Pdf#0;class#Doc4jConvert#0" expanded="false" />
-            <marker date="1540451789297" expanded="false" signature="1130:4908" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hf.fo" />
-    <entry file="file://$PROJECT_DIR$/test.fo" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="107" lean-forward="false" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert.java" />
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/2.8.1/docx4j-2.8.1.jar!/org/docx4j/convert/out/html/AbstractHtmlExporter.class" />
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class" />
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/model/fields/FieldUpdater.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/Docx4J.class" />
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/fonts/PhysicalFonts.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/docx4j/fonts/doc4j/builder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/builder/WordprocessingMLPackageBuilder.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/docx4j/fonts/ChineseFonts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/aspose/license.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/DocToPdf.java" />
-    <entry file="jar://D:/env/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/PropertyConfigurator.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aspose/Aspose.Total.Java.lic">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hf.fo" />
-    <entry file="file://$PROJECT_DIR$/test.fo" />
-    <entry file="jar://D:/env/repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/Document.class" />
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/convert/out/HTMLSettings.class" />
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/convert/out/AbstractConversionSettings.class" />
-    <entry file="jar://E:/env/mvn_repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/Document.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="58" column="33" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/Utils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/PageSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="495" column="24" lean-forward="false" selection-start-line="495" selection-start-column="24" selection-end-line="495" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/document/GenerateACustomBarCodeImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer/MainForm.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="46" />
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aspose/license.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="287">
+          <caret line="452" column="18" lean-forward="false" selection-start-line="452" selection-start-column="18" selection-end-line="452" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/ReceiveNotificationOfMissingFontsAndFontSubstitution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#convertDoc2Pdf#0;class#Doc4jConvert#0" expanded="false" />
-            <marker date="1540451789297" expanded="false" signature="1130:4908" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/SimpleMailMerge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/UpdateFields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="49" column="65" lean-forward="true" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/WorkingWithNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/LoadAndSaveToStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/LoadAndSaveToDisk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="-176">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/HelloWorld.java">
+    <entry file="jar://D:/env/repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/Document.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/FindAndReplace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="278">
+          <caret line="718" column="35" lean-forward="false" selection-start-line="718" selection-start-column="35" selection-end-line="718" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/ApplyLicense.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/SaveDocWithHtmlSaveOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="63" column="54" lean-forward="false" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+          <folding>
+            <element signature="method#saveHtmlWithMetafileFormat#0;class#SaveDocWithHtmlSaveOptions#0" expanded="false" />
+            <element signature="method#importExportSVGinHTML#0;class#SaveDocWithHtmlSaveOptions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/SaveOptionsHtmlFixed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ExportFontsAsBase64.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/Theme/GetThemeProperties.java">
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/Docx4J.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="-1551">
+          <caret line="378" column="23" lean-forward="false" selection-start-line="378" selection-start-column="23" selection-end-line="378" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/images/InsertBarcodeImage.java">
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="924">
+          <caret line="98" column="11" lean-forward="false" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/bookmarks/AccessBookmarks.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/Doc2PDF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/AppendDocuments.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/LargeSizeImageToPdf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="1375">
+          <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/fonts/fop/fonts/autodetect/UnixFontDirFinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/fonts/fop/fonts/autodetect/FontFileFinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="74" column="40" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/fonts/PhysicalFonts.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="528">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/xlsx4j/sml/Workbook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1358">
+          <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/CellsHelperClass/CreateSafeSheetNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/RunExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="102" column="40" lean-forward="true" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#convertDoc2Html#0;class#Doc4jConvert#0" expanded="false" />
+            <element signature="e#6606#6617#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Note.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/ExportWorksheetCSSSeparatelyInOutputHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Fonts/SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/GetHTML5StringFromCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/FormFieldsWorkWithProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/WrapText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/LoadingSavingConvertingAndManaging/SaveXLSXFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/DrawingObjects/AddingButtonControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/WarningCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/RemoveWhitespaceAroundData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/LoadingSavingConvertingAndManaging/GetWarningLoadingAnExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Worksheets/PageSetupFeatures/RemoveExistingPrinterSettingsOfWorksheets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/CreatePivotTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/DateDataValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Charts/ModifyLineChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/DrawingObjects/AddingLabelControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/DigitallySignedPdf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/SpecifyingCustomSeparators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/ExcludeUnusedStylesInExcelToHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/SetPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertADocumentToMHTMLAndEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="73" lean-forward="false" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/InsertCheckBoxesOrHTMLDuringMailMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2552">
+          <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

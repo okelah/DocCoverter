@@ -66,12 +66,6 @@
         </dependency>
         <dependency>
             <groupId>com.aspose</groupId>
-            <artifactId>aspose-words</artifactId>
-            <version>18.10</version>
-            <classifier>javadoc</classifier>
-        </dependency>
-        <dependency>
-            <groupId>com.aspose</groupId>
             <artifactId>aspose-email</artifactId>
             <version>18.9</version>
             <classifier>jdk16</classifier>
@@ -92,6 +86,13 @@
             <artifactId>ucanaccess</artifactId>
             <version>3.0.6</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.aspose</groupId>
+            <artifactId>aspose-cells</artifactId>
+            <version>18.10</version>
+        </dependency>
+
         <!-- 日志文件管理包 -->
         <dependency>
             <groupId>log4j</groupId>
