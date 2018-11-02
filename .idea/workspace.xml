@@ -2,245 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa035f9-8db8-4057-a8b6-9ecdd29c696f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/AsposeTest.pfx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Blank.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Book1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/CustomFonts/CatsAlphabet.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/NonBlank.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Query TXT.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/SampleTextboxExcel2016.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Students.accdb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/XML Data.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/newPdfSaveOptions_StreamProvider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/oldPdfSaveOptions_StreamProvider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/pivot_table_test.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleAccessAndModifyLabelOfOleObject.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleAdvancedFilter.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleAutoPopulateSmartMarkerDataToOtherWorksheets.accdb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleCalculationMonitor.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleControlExternalResourcesUsingWorkbookSetting_StreamProvider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleControlExternalResourcesUsingWorkbookSetting_StreamProvider.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleCreateChartPDFWithDesiredPageSize.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleCreatePdfBookmarkEntryForChartSheet.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleCreateSlicerToPivotTable.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleDesignerForm.xlsm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleDigitallySignedByCells.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleDisableDownlevelRevealedComments.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleEncryptedODSFile.ods" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleErrorExcel2Pdf.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleExportCommentsHTML.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleExportSimilarBorderStyle.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleExternalConnection_XLSB.xlsb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleExtractTextFromGearTypeSmartArtShape.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleFindAndRefreshNestedOrChildrenPivotTables.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleFindIfWorksheetIsDialogSheet.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleFormattingSlicer.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleGroupPivotFieldsInPivotTable.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleHtmlCrossStringType.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleImageOrPrintOptions_PageIndexPageCount.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleImportTableOptionsShiftFirstRowDown.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleNumbersByAppleInc.numbers" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleODSFile.ods" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/samplePageSetupIsAutomaticPaperSize-False.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/samplePageSetupIsAutomaticPaperSize-True.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleParsingPivotCachedRecordsWhileLoadingExcelFile.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/samplePdfBookmarkEntry_DestinationName.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/samplePdfSaveOptions_StreamProvider.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleReadAxisLabelsAfterCalculatingTheChart.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRemoveExistingPrinterSettingsOfWorksheets.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRemovingSlicer.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRenderOfficeAdd-Ins.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRenderingSlicer.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRootElementNameOfXmlMap.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRotateTextWithShapeInsideWorksheet.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleRussianGlobalization.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSeries_ValuesFormatCode.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSetShapeTypeOfDataLabelsOfChart.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSheetId.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSmartArtShape.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSmartArtShape_GetResultOfSmartArt.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSortData_CustomSortList.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleTextureFill_IsTiling.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleToFrontOrBack.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleUpdatingSlicer.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sampleXmlMapQuery.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sourceWithCustProps.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/sourseSampleCountryNames.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/ACToPdf_out.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/FilteredBlank.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/FilteredNonBlank.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/destination.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outSourceWithCustProps.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outSourseSampleCountryNames.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outputChangeCellsAlignmentAndKeepExistingFormatting.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outputDecryptedODSFile.ods" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outputEncryptedODSFile.ods" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outputExternalConnection_XLSB.xlsb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/CellsHelperClass/Book1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/CellsHelperClass/Book2.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/ModifyCharts.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/SettingChartLines_out.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/book1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/chart.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/excel2016Charts.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Charts/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Data/Book1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Data/book1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Data/mergingcells.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Data/sampleSortAsNumber.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/Book1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/Excel_File0.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/book1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/sourceGlowEffectColor.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/DrawingObjects/tempBook1ole0.Xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Formulas/Book1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Formulas/Book1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Formulas/sample1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Formulas/test.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Introduction/Book1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Introduction/Book1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book2.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book_Excel2007.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book_Excel97_2003.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/E2PDFC-out.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/MyTestBook1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/encryptedBook.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/sampleDuplicateDefinedName.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/sampleTrimBlankColumns.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/PivotTables/PivotTable.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/PivotTables/sample1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/PivotTables/samplePivotTableGlobalizationSettings.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RowsAndColumns/Book1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RowsAndColumns/BookStyles.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RowsAndColumns/book1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/SmartMarkers/TestSmartMarkers.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Tables/List_Object.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Tables/book1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Tables/listBook.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Tables/sample.xlsm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/ATFromCell.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/AddWordArtText_out.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/BackImageSheet.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/BookStyles.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Book_SourceData.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CheckWorkbookContainsHiddenExternalLinks_in.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Controls.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CopyRange.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CopyRangeData.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CopyRangeDataWithFormatting.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CopyRangeStyleOnly.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CustomThemeColor.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CustomerReport.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/FormatWorksheet.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/FormatWorksheet.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/ImageHyperlink.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/InsertedImage.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/LinkCellstoXmlMapElements_in.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/MergeTrial.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/MyTestBook1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/PageSetup.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/PieBars.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/PieChart.emf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/PieChart.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Sample1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SampleChart.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SampleImage.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SampleInput.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SetPresetWordArtStyle_out.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Shapes.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SheetImage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/SheetImage.tiff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Styles.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Subscript.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Superscript.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/Test.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/TestBook.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/TestData.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WebQuerySample.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WorkingWithGlowEffect_in.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WorkingWithReflectionEffect_in.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WorkingWithShadowEffect_in.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WorkingWithThreeDFormat_in.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/WrappingText.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/aspose-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/aspose-sample.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/autofitmergedcells.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/book2.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/character-spacing.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/chord.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/column_chart.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/connection.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/copyrangestyle.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/encryptedBook1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/image2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/imgIcon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/oleFile.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/pivotChart_test.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/pivotTable_test.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/pivotTable_test.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/report.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample.xlsm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sampleFilterCharts.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sampleFilterDifferentObjects.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sampleGetFonts.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample_Export-Xml-Data-linked.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/source.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sourceGradientFill.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/testModel Inputs Page1.tif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/webimagebook.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/~$Controls.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/~$Shapes.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/WorkbookVBAProject/sampleCheckifVBAProjectisProtected.xlsm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/WorkbookVBAProject/samplePasswordProtectVBAProject.xlsm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/BkFinance.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/FinalBook.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/SampleXLSFile_38kb.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/book.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/book1.xls" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/book1.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/footer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Worksheets/school.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_8_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_8_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_excelant_4_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_scratchpad_4_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_0_1.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hf.fo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Note.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/02_OutputDirectory/Note.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book1TabDelimited.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/LoadingSavingConvertingAndManaging/Book_CSV.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/CustomUI.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/MultiEncoded.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/TechnicalArticles/sample.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Doc2HtmlConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Doc2PdfConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvertFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvertFactoryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2HtmlConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2PdfConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2HtmlConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2PdfConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/ConvertFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFileType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFileType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/PoiConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/aspose/Aspose.Total.Java.lic" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/aspose/license.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.fo" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_aspose_aspose_words_javadoc_18_10.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/RenderShapes/TestFile.RenderToGraphics.png" afterPath="$PROJECT_DIR$/src/main/resources/com/aspose/words/examples/rendering_printing/RenderShapes/TestFile.RenderToGraphics.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DocCoverter.iml" afterPath="$PROJECT_DIR$/DocCoverter.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/AsposeConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Docx4jConvert.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/docx4j/fonts/ChineseFonts.java" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/fonts/ChineseFonts.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -268,34 +68,52 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConvertADocumentToMHTMLAndEmail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertADocumentToMHTMLAndEmail.java">
+      <file leaf-file-name="PoiConvert.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/PoiConvert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="16" column="73" lean-forward="false" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertCheckBoxesOrHTMLDuringMailMerge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/InsertCheckBoxesOrHTMLDuringMailMerge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsposeConvert.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2552">
-              <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+            <state relative-caret-position="884">
+              <caret line="142" column="18" lean-forward="true" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#ppt2html#0;class#PoiConvert#0" expanded="false" />
+                <element signature="method#xls2html#0;class#PoiConvert#0" expanded="false" />
+                <element signature="method#doc2html#0;class#PoiConvert#0" expanded="false" />
+                <element signature="e#4272#4552#0" expanded="true" />
+                <element signature="e#4551#4552#0" expanded="true" />
+                <element signature="method#checkFile#0;class#PoiConvert#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="115" column="21" lean-forward="false" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+              <folding>
+                <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="poi-scratchpad-3.17.pom" pinned="false" current-in-tab="false">
+        <entry file="file://D:/env/repository/org/apache/poi/poi-scratchpad/3.17/poi-scratchpad-3.17.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-780">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -305,6 +123,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -337,15 +156,39 @@
         <option value="$PROJECT_DIR$/src/main/resources/aspose/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/UpdateFields.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/MultiplePagesOnSheet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/FormFieldsWorkWithProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/AsposeCellsExamples/DrawingObjects/AddingLabelControl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/DigitallySignedPdf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/TargetFileType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/SourceFileType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/ConvertFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/SourceFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/TargetFile.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvertFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvertFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/AsposeConvert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Doc2HtmlConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Doc2PdfConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2HtmlConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2PdfConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2HtmlConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2PdfConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/ConvertFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/AsposeConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Doc4jConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/Doc4jConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Docx4jConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/PoiConvert.java" />
       </list>
     </option>
   </component>
@@ -371,10 +214,6 @@
     <option name="enabledProfiles">
       <list>
         <option value="alimaven" />
-      </list>
-    </option>
-    <option name="disabledProfiles">
-      <list>
         <option value="internal" />
       </list>
     </option>
@@ -417,7 +256,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -461,26 +302,8 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DocCoverter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -503,14 +326,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,10 +352,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -574,15 +385,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="convert" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Impl" />
+              <option name="myItemId" value="poi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -614,35 +421,33 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.general" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Aspose.Cells-for-Java-master" />
+    <property name="last_opened_file_path" value="D:/Jarvis/jarvis-message" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.38334858" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\programming_documents\images\InsertBarcodeImage" />
+      <recent name="E:\DocCoverter\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aspose.words.examples" />
+      <recent name="examples" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\trunk\DocCoverter\src\main\java" />
       <recent name="E:\trunk\DocCoverter\src\main\resources" />
       <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\SimpleMailMerge" />
       <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\FindAndReplace" />
       <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\AppendDocuments" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.aspose.words.examples" />
-      <recent name="examples" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\programming_documents\images\InsertBarcodeImage" />
-      <recent name="E:\DocCoverter\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1065,7 +870,10 @@
       <workItem from="1540432297740" duration="9362000" />
       <workItem from="1540448568839" duration="1230000" />
       <workItem from="1540451244972" duration="9619000" />
-      <workItem from="1540778095667" duration="17023000" />
+      <workItem from="1540778095667" duration="18147000" />
+      <workItem from="1540863224488" duration="3031000" />
+      <workItem from="1540870123774" duration="4401000" />
+      <workItem from="1541139473676" duration="13271000" />
     </task>
     <task id="LOCAL-00001" summary="1st Edition">
       <created>1540448626667</created>
@@ -1109,47 +917,55 @@
       <option name="project" value="LOCAL" />
       <updated>1540470889405</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cells">
+      <created>1540800721254</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540800721254</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55674000" />
+    <option name="totallyTimeSpent" value="77501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19083156" sideWeight="0.4927798" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.4927798" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4067245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20042644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4067245" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10127932" sideWeight="0.5072202" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1165,11 +981,12 @@
     <MESSAGE value="2st Edition 新增html 转化测试" />
     <MESSAGE value="整理测试环境" />
     <MESSAGE value="提价版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="提价版本" />
+    <MESSAGE value="cells" />
+    <option name="LAST_COMMIT_MESSAGE" value="cells" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1178,401 +995,58 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/Word2Help.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1430">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/DocumentPreviewAndPrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="49" lean-forward="false" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/MultiplePagesOnSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="452" column="18" lean-forward="false" selection-start-line="452" selection-start-column="18" selection-end-line="452" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/ReceiveNotificationOfMissingFontsAndFontSubstitution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="718" column="35" lean-forward="false" selection-start-line="718" selection-start-column="35" selection-end-line="718" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/SaveDocWithHtmlSaveOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="63" column="54" lean-forward="false" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
-          <folding>
-            <element signature="method#saveHtmlWithMetafileFormat#0;class#SaveDocWithHtmlSaveOptions#0" expanded="false" />
-            <element signature="method#importExportSVGinHTML#0;class#SaveDocWithHtmlSaveOptions#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/SaveOptionsHtmlFixed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="44" column="15" lean-forward="true" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ExportFontsAsBase64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/GetListOfFilesInFolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/Docx4J.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1551">
-          <caret line="378" column="23" lean-forward="false" selection-start-line="378" selection-start-column="23" selection-end-line="378" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/openpackaging/packages/WordprocessingMLPackage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="98" column="11" lean-forward="false" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/Doc2PDF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/LargeSizeImageToPdf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/fonts/fop/fonts/autodetect/UnixFontDirFinder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/fonts/fop/fonts/autodetect/FontFileFinder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="74" column="40" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/docx4j/fonts/PhysicalFonts.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="e#1797#1798#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/env/repository/org/docx4j/docx4j/6.0.1/docx4j-6.0.1.jar!/org/xlsx4j/sml/Workbook.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1358">
           <caret line="77" column="11" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/CellsHelperClass/CreateSafeSheetNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/RunExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="102" column="40" lean-forward="true" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
-          <folding>
-            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/Doc4jConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#convertDoc2Html#0;class#Doc4jConvert#0" expanded="false" />
-            <element signature="e#6606#6617#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/CellsHelperClass/CreateSafeSheetNames.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/RunExamples.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/01_SourceDirectory/Note.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/ExportWorksheetCSSSeparatelyInOutputHTML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Fonts/SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/GetHTML5StringFromCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/ExportWorksheetCSSSeparatelyInOutputHTML.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Fonts/SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/GetHTML5StringFromCell.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/programming_documents/fields/FormFieldsWorkWithProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/WrapText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/LoadingSavingConvertingAndManaging/SaveXLSXFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/DrawingObjects/AddingButtonControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/WarningCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/RemoveWhitespaceAroundData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/LoadingSavingConvertingAndManaging/GetWarningLoadingAnExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Worksheets/PageSetupFeatures/RemoveExistingPrinterSettingsOfWorksheets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/CreatePivotTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/DateDataValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Charts/ModifyLineChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/DrawingObjects/AddingLabelControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/WrapText.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/LoadingSavingConvertingAndManaging/SaveXLSXFile.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/DrawingObjects/AddingButtonControl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/WarningCallback.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/RemoveWhitespaceAroundData.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/LoadingSavingConvertingAndManaging/GetWarningLoadingAnExcel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Worksheets/PageSetupFeatures/RemoveExistingPrinterSettingsOfWorksheets.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/CreatePivotTable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/DateDataValidation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Charts/ModifyLineChart.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/DrawingObjects/AddingLabelControl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/DigitallySignedPdf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/SpecifyingCustomSeparators.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/SpecifyingCustomSeparators.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/ExcludeUnusedStylesInExcelToHTML.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/SetPattern.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/InsertCheckBoxesOrHTMLDuringMailMerge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/ExcludeUnusedStylesInExcelToHTML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/SetPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1580,24 +1054,238 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="16" column="73" lean-forward="false" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/InsertCheckBoxesOrHTMLDuringMailMerge.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/AsposeConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        <state relative-caret-position="198">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Impl/AsposeConvert.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFileType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2552">
-          <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+        <state relative-caret-position="110">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFileType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#243#244#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Doc2HtmlConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Doc2PdfConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvertFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2HtmlConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2PdfConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2PdfConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2HtmlConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/ConvertFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/Doc4jConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="112" column="6" lean-forward="false" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Docx4jConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#checkFonts#0;class#Docx4jConvert#0" expanded="false" />
+            <element signature="method#doc2pdf#0;class#Docx4jConvert#0" expanded="false" />
+            <element signature="method#doc2html#0;class#Docx4jConvert#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1958">
+          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding>
+            <element signature="method#asposePdfTest#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/AsposeConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="99" column="12" lean-forward="true" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/fonts/ChineseFonts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvertFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/env/repository/org/apache/poi/poi-scratchpad/3.17/poi-scratchpad-3.17.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="115" column="21" lean-forward="false" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/PoiConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="142" column="18" lean-forward="true" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ppt2html#0;class#PoiConvert#0" expanded="false" />
+            <element signature="method#xls2html#0;class#PoiConvert#0" expanded="false" />
+            <element signature="method#doc2html#0;class#PoiConvert#0" expanded="false" />
+            <element signature="e#4272#4552#0" expanded="true" />
+            <element signature="e#4551#4552#0" expanded="true" />
+            <element signature="method#checkFile#0;class#PoiConvert#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1611,7 +1299,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.38334858" />
               </list>
             </option>
           </splitter-proportions>
@@ -1623,7 +1311,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.38334858" />
               </list>
             </option>
           </splitter-proportions>
@@ -1679,11 +1367,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: com.aspose:aspose-email:jdk16:18.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.38334858" />
               </list>
             </option>
           </splitter-proportions>

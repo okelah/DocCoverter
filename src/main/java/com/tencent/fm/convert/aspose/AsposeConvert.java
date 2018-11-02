@@ -1,7 +1,9 @@
-package com.tencent.fm.convert.Impl;
+package com.tencent.fm.convert.aspose;
 
 import com.aspose.words.*;
-import com.tencent.fm.convert.Convert;
+import com.tencent.fm.convert.*;
+import com.tencent.fm.convert.bean.SourceFile;
+import com.tencent.fm.convert.bean.TargetFile;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,9 +12,9 @@ import java.io.InputStream;
 
 
 /**
- * Created by pengfeining on 2018/10/25 0025.
+ * Created by pengfeining on 2018/10/25 0025. 支持mhtml 如果文后缀名是mhtml
  */
-public class AsposeConvert implements Convert {
+public class AsposeConvert implements Doc2HtmlConvert, Doc2PdfConvert {
     
     Logger logger = LoggerFactory.getLogger(AsposeConvert.class);
     
@@ -36,7 +38,7 @@ public class AsposeConvert implements Convert {
     
     /**
      * 判断是否为空
-     * 
+     *
      * @param obj
      *            字符串对象
      * @return
@@ -48,16 +50,34 @@ public class AsposeConvert implements Convert {
         return false;
     }
     
+    @Override
+    public void doc2pdf(SourceFile sourceFile, TargetFile targetFile) {
+        try {
+            String inputFilePath = sourceFile.getPath();
+            String outputFilePath = targetFile.getPath();
+            // 验证License
+            if (!getLicense()) {
+                return;
+            }
+            Document doc = new Document(inputFilePath);
+            doc.save(outputFilePath, SaveFormat.PDF);// 全面支持DOC, DOCX, OOXML, RTF HTML, OpenDocument, PDF, EPUB, XPS, SWF 相互转换
+        } catch (Exception e) {
+            logger.error("asopose convert error:" + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+    
     /**
      * 注意输出文件格式与输入文件格式 支持html与xhtml的输出
      * 
-     * @param inputFilePath
-     *
-     * @param outputFilePath
+     * @param sourceFile
+     * @param targetFile
      */
     @Override
-    public void convertDoc2Html(String inputFilePath, String outputFilePath) {
+    public void doc2html(SourceFile sourceFile, TargetFile targetFile) {
         try {
+            String inputFilePath = sourceFile.getPath();
+            String outputFilePath = targetFile.getPath();
             // 验证License
             if (!getLicense()) {
                 return;
@@ -91,39 +111,8 @@ public class AsposeConvert implements Convert {
                 doc.save(outputFilePath, options);
             }
         } catch (Exception e) {
+            logger.error("asopose convert error:" + e.getMessage());
             e.printStackTrace();
         }
     }
-    
-    @Override
-    public void convertDoc2Pdf(String inputFilePath, String outputFilePath) {
-        try {
-            // 验证License
-            if (!getLicense()) {
-                return;
-            }
-            Document doc = new Document(inputFilePath);
-            doc.save(outputFilePath, SaveFormat.PDF);// 全面支持DOC, DOCX, OOXML, RTF HTML, OpenDocument, PDF, EPUB, XPS, SWF 相互转换
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    
-    @Override
-    public void convertXls2pdf(String inputFilePath, String outputFilePath) {
-        try {
-            // 验证License
-            if (!getLicense()) {
-                return;
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    
-    @Override
-    public void convertXls2html(String inputFilePath, String outputFilePath) {
-        
-    }
-    
 }

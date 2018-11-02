@@ -2,8 +2,7 @@ import com.aspose.words.Document;
 import com.aspose.words.HtmlMetafileFormat;
 import com.aspose.words.HtmlSaveOptions;
 import com.tencent.fm.convert.Convert;
-import com.tencent.fm.convert.Impl.AsposeConvert;
-import com.tencent.fm.convert.Impl.Doc4jConvert;
+import com.tencent.fm.convert.aspose.AsposeConvert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -51,7 +50,7 @@ public class Main {
 
     static void doc4jPdfTest(String filename) throws Exception {
         String pathInput = "E:\\ConvertTest\\" + filename;
-        String pathOutput = "E:\\ConvertTest\\doc4j\\" + filename.substring(0, filename.indexOf(".")) + ".pdf";
+        String pathOutput = "E:\\ConvertTest\\docx4j\\" + filename.substring(0, filename.indexOf(".")) + ".pdf";
 //        String pathInput = "/Users/null/Documents/SelfStudy/" + filename;
 //        String pathOutput = "/Users/null/Documents/SelfStudy/" + filename.substring(0, filename.indexOf(".")) + ".html";
 
@@ -59,11 +58,11 @@ public class Main {
         // doc4jConvert
         FileInputStream fileInputStream = new FileInputStream(new File(pathInput));
         FileOutputStream fileOutputStream = new FileOutputStream(new File(pathOutput));
-        Convert doc4jConvert = new Doc4jConvert();
+//        Convert doc4jConvert = new Doc4jConvert();
 //        doc4jConvert.convertDoc2Pdf(fileInputStream, fileOutputStream);
-        doc4jConvert.convertDoc2Pdf(pathInput, pathOutput);
+//        doc4jConvert.convertDoc2Pdf(pathInput, pathOutput);
         long doc4jEndTime = System.currentTimeMillis();
-        logger.info("doc4j cost {} ms", doc4jEndTime - doc4jStartTime);
+        logger.info("docx4j cost {} ms", doc4jEndTime - doc4jStartTime);
     }
 
     static void asposePdfTest(String filename) throws Exception {
@@ -85,14 +84,14 @@ public class Main {
 
     static void doc4jHtmlTest(String filename) throws Exception {
 //        String pathInput = "E:\\ConvertTest\\" + filename;
-//        String pathOutput = "E:\\ConvertTest\\doc4j\\" + filename.substring(0, filename.indexOf(".")) + ".html";
+//        String pathOutput = "E:\\ConvertTest\\docx4j\\" + filename.substring(0, filename.indexOf(".")) + ".html";
         String pathInput = "/Users/null/Documents/SelfStudy/" + filename;
         String pathOutput = "/Users/null/Documents/SelfStudy/" + filename.substring(0, filename.indexOf(".")) + ".html";
 
         long doc4jStartTime = System.currentTimeMillis();
         FileInputStream fileInputStream = new FileInputStream(new File(pathInput));
         FileOutputStream fileOutputStream = new FileOutputStream(new File(pathOutput));
-        Convert convert = new Doc4jConvert();
+//        Convert convert = new Doc4jConvert();
 //        convert.convertDoc2Html(fileInputStream, fileOutputStream);
         long doc4jEndTime = System.currentTimeMillis();
         logger.info("aspose cost {} ms", doc4jStartTime - doc4jEndTime);
@@ -100,7 +99,7 @@ public class Main {
 
     static void asposeHtmlTest(String filename) throws Exception {
 //        String pathInput = "E:\\ConvertTest\\" + filename;
-//        String pathOutput = "E:\\ConvertTest\\doc4j\\" + filename.substring(0, filename.indexOf(".")) + ".html";
+//        String pathOutput = "E:\\ConvertTest\\docx4j\\" + filename.substring(0, filename.indexOf(".")) + ".html";
         String pathInput = "/Users/null/Documents/SelfStudy/" + filename;
         String pathOutput = "/Users/null/Documents/SelfStudy/" + filename.substring(0, filename.indexOf(".")) + ".html";
 
