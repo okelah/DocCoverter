@@ -9,8 +9,5 @@
         <module name="DocCoverter" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DocCoverter" target="7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
