@@ -4,7 +4,7 @@ package com.tencent.fm.convert.bean;
  * Created by pengfeining on 2018/11/2 0002.
  */
 public enum TargetFileType {
-        HTML(0), PDDF(1);
+        HTML(0), PDF(1);
     
     private int value;
     

@@ -4,6 +4,8 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/DocCoverter.iml" />
+        <option value="$PROJECT_DIR$/DocConverter.iml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>

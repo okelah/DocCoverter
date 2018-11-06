@@ -1,7 +1,7 @@
 package com.tencent.fm.convert.docx4j;
 
-import com.tencent.fm.convert.Doc2HtmlConvert;
-import com.tencent.fm.convert.Doc2PdfConvert;
+import com.tencent.fm.convert.Word2HtmlConvert;
+import com.tencent.fm.convert.Word2PdfConvert;
 import com.tencent.fm.convert.bean.SourceFile;
 import com.tencent.fm.convert.bean.TargetFile;
 import org.apache.commons.io.IOUtils;
@@ -30,7 +30,7 @@ import java.io.FileOutputStream;
 /**
  * Created by pengfeining on 2018/11/2 0002.
  */
-public class Docx4jConvert implements Doc2HtmlConvert, Doc2PdfConvert {
+public class Docx4jConvert implements Word2HtmlConvert, Word2PdfConvert {
     
     Logger logger = LoggerFactory.getLogger(Docx4jConvert.class);
     
@@ -52,7 +52,16 @@ public class Docx4jConvert implements Doc2HtmlConvert, Doc2PdfConvert {
             
         }
     }
-    
+
+    @Override
+    public void word2pdf(SourceFile sourceFile, TargetFile targetFile) {
+        switch (sourceFile.getSourceFileType()){
+            case DOC:doc2pdf(sourceFile,targetFile);break;
+            case DOCX:docx2pdf(sourceFile,targetFile);break;
+            default:logger.info("{} is not a word",sourceFile.getPath());break;
+        }
+    }
+
     /**
      * 转pdf有两种方式，一种付费的plutext 一种采用内部转化
      * 
@@ -162,7 +171,21 @@ public class Docx4jConvert implements Doc2HtmlConvert, Doc2PdfConvert {
             e.printStackTrace();
         }
     }
-    
+
+    @Override
+    public void docx2pdf(SourceFile sourceFile, TargetFile targetFile) {
+        doc2pdf(sourceFile,targetFile);
+    }
+
+    @Override
+    public void word2html(SourceFile sourceFile, TargetFile targetFile) {
+        switch (sourceFile.getSourceFileType()){
+            case DOC:doc2html(sourceFile,targetFile);break;
+            case DOCX:docx2html(sourceFile,targetFile);break;
+            default:logger.info("{} is not a word",sourceFile.getPath());break;
+        }
+    }
+
     @Override
     public void doc2html(SourceFile sourceFile, TargetFile targetFile) {
         String inputFilePath = sourceFile.getPath();
@@ -175,7 +198,7 @@ public class Docx4jConvert implements Doc2HtmlConvert, Doc2PdfConvert {
             // .. the HTMLSettings object
             HTMLSettings htmlSettings = Docx4J.createHTMLSettings();
             
-            htmlSettings.setImageDirPath("_files");
+            htmlSettings.setImageDirPath(targetFile.getDir()+"_files");
             htmlSettings.setImageTargetUri("_files");
             htmlSettings.setWmlPackage(wordMLPackage);
             
@@ -248,5 +271,10 @@ public class Docx4jConvert implements Doc2HtmlConvert, Doc2PdfConvert {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void docx2html(SourceFile sourceFile, TargetFile targetFile) {
+        doc2html(sourceFile,targetFile);
     }
 }

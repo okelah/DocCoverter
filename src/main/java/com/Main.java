@@ -1,7 +1,7 @@
+package com;
 import com.aspose.words.Document;
 import com.aspose.words.HtmlMetafileFormat;
 import com.aspose.words.HtmlSaveOptions;
-import com.aspose.words.SaveFormat;
 import com.tencent.fm.convert.*;
 import com.tencent.fm.convert.aspose.AsposeConvert;
 import com.tencent.fm.convert.bean.SourceFile;
@@ -39,27 +39,25 @@ public class Main {
 //        asposePdfTest(testfile);
 //        pdftest();
 //        htmlTest();
+        xlsHtml();
 //        xlsHtml();
-        xlsPdf();
+//        xlsPdf();
     }
 
 
     public static void  pdftest(){
         SourceFile sourceFile=new SourceFile("//Users/null//Desktop//手游报告-Part2-1103v5.docx");
         TargetFile targetFile=new TargetFile("//Users/null//Desktop//doc4j.pdf");
-//        Doc2PdfConvert doc2PdfConvert=new AsposeConvert();
-        Doc2PdfConvert doc2PdfConvert=new Docx4jConvert();
+//        Word2PdfConvert doc2PdfConvert=new AsposeConvert();
+        Word2PdfConvert doc2PdfConvert=new Docx4jConvert();
         doc2PdfConvert.doc2pdf(sourceFile,targetFile);
     }
 
     public static void htmlTest() throws Exception{
         SourceFile sourceFile=new SourceFile("//Users//null//Desktop//手游报告-Part2-1103v5.docx");
-        TargetFile targetFile=new TargetFile("//Users//null//Desktop//doc4j.html");
-//        Document document=new Document(sourceFile.getPath());
-//        document.save(targetFile.getPath(),SaveFormat.MHTML);
-//        Doc2HtmlConvert doc2HtmlConvert=new AsposeConvert();
-        Doc2HtmlConvert doc2HtmlConvert=new PoiConvert();
-        doc2HtmlConvert.doc2html(sourceFile,targetFile);
+        TargetFile targetFile=new TargetFile("//Users//null//Desktop//poi.html");
+        Word2HtmlConvert word2HtmlConvert=new PoiConvert();
+        word2HtmlConvert.word2html(sourceFile,targetFile);
     }
 
     public static void xlsHtml() throws Exception{
@@ -67,19 +65,19 @@ public class Main {
         TargetFile targetFile=new TargetFile("//Users//null//Desktop//asposeXls.html");
 //        Document document=new Document(sourceFile.getPath());
 //        document.save(targetFile.getPath(),SaveFormat.MHTML);
-//        Doc2HtmlConvert doc2HtmlConvert=new AsposeConvert();
-        Xls2HtmlConvert xls2HtmlConvert=new AsposeConvert();
-        xls2HtmlConvert.xls2html(sourceFile,targetFile);
+//        Word2HtmlConvert doc2HtmlConvert=new AsposeConvert();
+        Excel2HtmlConvert excel2HtmlConvert=new PoiConvert();
+        excel2HtmlConvert.excel2html(sourceFile,targetFile);
     }
 
 
     public static void xlsPdf() throws Exception{
-        SourceFile sourceFile=new SourceFile("//Users//null//Desktop//个人预算1.xlsx");
+        SourceFile sourceFile=new SourceFile("//Users//null//Desktop//sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx");
         TargetFile targetFile=new TargetFile("//Users//null//Desktop//asposePdf.pdf");
 //        Document document=new Document(sourceFile.getPath());
 //        document.save(targetFile.getPath(),SaveFormat.MHTML);
-//        Doc2HtmlConvert doc2HtmlConvert=new AsposeConvert();
-        Xls2PdfConvert xls2PdfConvert=new AsposeConvert();
+//        Word2HtmlConvert doc2HtmlConvert=new AsposeConvert();
+        Excel2PdfConvert xls2PdfConvert=new AsposeConvert();
         xls2PdfConvert.xls2pdf(sourceFile,targetFile);
     }
 

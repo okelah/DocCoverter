@@ -10,7 +10,7 @@ public class ReceiveNotificationOfMissingFontsAndFontSubstitution {
 	private static final String dataDir = Utils.getSharedDataDir(ReceiveNotificationOfMissingFontsAndFontSubstitution.class) + "RenderingAndPrinting/";
 
 	public static void main(String[] args) throws Exception {
-		//ExStart:Main
+		//ExStart:com.Main
 		// Load the document to render.
 		Document doc = new Document(dataDir + "Rendering.doc");
 		
@@ -31,7 +31,7 @@ public class ReceiveNotificationOfMissingFontsAndFontSubstitution {
 		doc.save(dataDir + "Rendering.MissingFontNotification Out.pdf");
 		
 		getNotificationBeforeSaving(doc);
-		//ExEnd:Main
+		//ExEnd:com.Main
 	}
 	
 	public static void getNotificationBeforeSaving(Document doc) throws Exception {

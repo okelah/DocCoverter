@@ -25,7 +25,7 @@ public class RenderShapes
 {
     public static void main(String[] args) throws Exception
     {
-        //ExStart:Main
+        //ExStart:com.Main
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(RenderShapes.class);
 
@@ -46,7 +46,7 @@ public class RenderShapes
         RenderRowToImage(dataDir, doc);
         RenderParagraphToImage(dataDir, doc);
         FindShapeSizes(shape);
-        //ExEnd:Main
+        //ExEnd:com.Main
     }
 
     //ExStart:RenderShapeToDisk

@@ -1,9 +1,10 @@
 package com.tencent.fm.convert.poi;
 
-import com.tencent.fm.convert.Doc2HtmlConvert;
-import com.tencent.fm.convert.Ppt2HtmlConvert;
-import com.tencent.fm.convert.Xls2HtmlConvert;
+import com.tencent.fm.convert.Word2HtmlConvert;
+import com.tencent.fm.convert.PowerPoint2HtmlConvert;
+import com.tencent.fm.convert.Excel2HtmlConvert;
 import com.tencent.fm.convert.bean.SourceFile;
+import com.tencent.fm.convert.bean.SourceFileType;
 import com.tencent.fm.convert.bean.TargetFile;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.hssf.converter.ExcelToHtmlConverter;
@@ -13,6 +14,12 @@ import org.apache.poi.hwpf.converter.PicturesManager;
 import org.apache.poi.hwpf.converter.WordToHtmlConverter;
 import org.apache.poi.hwpf.usermodel.Picture;
 import org.apache.poi.hwpf.usermodel.PictureType;
+import org.apache.poi.xwpf.converter.core.BasicURIResolver;
+import org.apache.poi.xwpf.converter.core.FileImageExtractor;
+import org.apache.poi.xwpf.converter.core.FileURIResolver;
+import org.apache.poi.xwpf.converter.xhtml.XHTMLConverter;
+import org.apache.poi.xwpf.converter.xhtml.XHTMLOptions;
+import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
@@ -30,10 +37,15 @@ import java.util.List;
 /**
  * Created by pengfeining on 2018/11/2 0002.
  */
-public class PoiConvert implements Doc2HtmlConvert, Xls2HtmlConvert, Ppt2HtmlConvert {
+public class PoiConvert implements Word2HtmlConvert, Excel2HtmlConvert, PowerPoint2HtmlConvert {
     
     Logger logger = LoggerFactory.getLogger(PoiConvert.class);
-    
+
+    @Override
+    public void powerpoint2html(SourceFile sourceFile, TargetFile targetFile) {
+
+    }
+
     /**
      * 本质上是转图片
      * 换个远吗
@@ -45,7 +57,21 @@ public class PoiConvert implements Doc2HtmlConvert, Xls2HtmlConvert, Ppt2HtmlCon
     public void ppt2html(SourceFile sourceFile, TargetFile targetFile) {
 
     }
-    
+
+    @Override
+    public void pptx2html(SourceFile sourceFile, TargetFile targetFile) {
+
+    }
+
+    @Override
+    public void excel2html(SourceFile sourceFile, TargetFile targetFile) {
+        switch (sourceFile.getSourceFileType()){
+            case XLS:xls2html(sourceFile,targetFile);break;
+            case XLSX:xlsx2html(sourceFile,targetFile);break;
+            default:logger.info("{} is not a excel",sourceFile.getPath());break;
+        }
+    }
+
     @Override
     public void xls2html(SourceFile sourceFile, TargetFile targetFile) {
         try {
@@ -88,13 +114,37 @@ public class PoiConvert implements Doc2HtmlConvert, Xls2HtmlConvert, Ppt2HtmlCon
             e.printStackTrace();
         }
     }
-    
+
+    @Override
+    public void xlsx2html(SourceFile sourceFile, TargetFile targetFile) {
+        String inputFilePath = sourceFile.getPath();
+        String outputFilePath = targetFile.getPath();
+        try {
+            FileInputStream inputStream=new FileInputStream(new File(inputFilePath));
+            FileOutputStream outputStream=new FileOutputStream(new File(outputFilePath));
+            String excelHtml = ExcelToHtmlUtil.readExcelToHtml(inputStream, true);
+            outputStream.write(excelHtml.getBytes("UTF8"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void word2html(SourceFile sourceFile, TargetFile targetFile) {
+        switch (sourceFile.getSourceFileType()){
+            case DOC:doc2html(sourceFile,targetFile);break;
+            case DOCX:docx2html(sourceFile,targetFile);break;
+            default:logger.info("{} is not a word",sourceFile.getPath());break;
+        }
+    }
+
     @Override
     public void doc2html(SourceFile sourceFile, TargetFile targetFile) {
         try {
             String inputFilePath = sourceFile.getPath();
             String outputFilePath = targetFile.getPath();
             String outputDirPath = targetFile.getDir();
+
             InputStream input = new FileInputStream(inputFilePath);
             HWPFDocument wordDocument = new HWPFDocument(input);
             WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(
@@ -136,25 +186,32 @@ public class PoiConvert implements Doc2HtmlConvert, Xls2HtmlConvert, Ppt2HtmlCon
             e.printStackTrace();
         }
     }
-    
+
     /**
-     * 检查文件是否是PPT
-     * 
-     * @param file
-     * @return
+     * POI中并没有提供将DOCX文件转化为HTML、XML等格式的接口，这里采用的是XDocReport中提供的接口，此外XDocReport中还提供将DOCX直接转化为PDF的接口
+     * @param sourceFile
+     * @param targetFile
      */
-    public boolean checkFile(File file) {
-        boolean isppt = false;
-        String filename = file.getName();
-        String suffixname = null;
-        if (filename != null && filename.indexOf(".") != -1) {
-            suffixname = filename.substring(filename.indexOf("."));
-            if (suffixname.equals(".ppt")) {
-                isppt = true;
-            }
-            return isppt;
-        } else {
-            return isppt;
+    public void docx2html(SourceFile sourceFile,TargetFile targetFile){
+        try {
+            String inputFilePath = sourceFile.getPath();
+            String outputFilePath = targetFile.getPath();
+            String outputDirPath = targetFile.getDir();
+            long startTime = System.currentTimeMillis();
+            XWPFDocument document = new XWPFDocument(new FileInputStream(inputFilePath));
+            XHTMLOptions options = XHTMLOptions.create().indent(4);
+            // 导出图片
+            File imageFolder = new File(outputDirPath);
+            options.setExtractor(new FileImageExtractor(imageFolder));
+            // URI resolver
+            options.URIResolver(new FileURIResolver(imageFolder));
+            File outFile = new File(outputFilePath);
+            outFile.getParentFile().mkdirs();
+            OutputStream out = new FileOutputStream(outFile);
+            XHTMLConverter.getInstance().convert(document, out, options);
+        }catch (Exception e){
+            logger.error("poi convert docx2html failed:"+e.getMessage());
+            e.printStackTrace();
         }
     }
 }

@@ -312,7 +312,7 @@ public class ApplyCustomLogicToEmptyRegions {
 
 		// Add the data to the tables.
 		addRow(storeDetailsResultSet, new String[] { "0", "Hungry Coyote Import Store", "2732 Baker Blvd", "Eugene", "USA" });
-		addRow(storeDetailsResultSet, new String[] { "1", "Great Lakes Food Market", "City Center Plaza, 516 Main St.", "San Francisco", "USA" });
+		addRow(storeDetailsResultSet, new String[] { "1", "Great Lakes Food Market", "City Center Plaza, 516 com.Main St.", "San Francisco", "USA" });
 
 		// Add data to the child table only for the first record.
 		addRow(contactDetailsResultSet, new String[] { "0", "Thomas Hardy", "(206) 555-9857 ext 237" });

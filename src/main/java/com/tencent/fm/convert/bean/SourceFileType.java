@@ -4,7 +4,7 @@ package com.tencent.fm.convert.bean;
  * Created by pengfeining on 2018/11/2 0002.
  */
 public enum SourceFileType {
-        DOC(0), XLS(1), PPT(2);
+        DOC(0),DOCX(1), XLS(2),XLSX(3),PPT(4),PPTX(5);
     
     private int value;
     

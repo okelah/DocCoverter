@@ -7,16 +7,15 @@ import com.aspose.words.*;
 import com.aspose.cells.*;
 import com.aspose.words.HtmlSaveOptions;
 import com.aspose.words.License;
-import com.aspose.words.LoadFormat;
-import com.aspose.words.LoadOptions;
-import com.aspose.words.PdfSaveOptions;
 import com.aspose.words.SaveFormat;
 import com.tencent.fm.convert.*;
 import com.tencent.fm.convert.bean.SourceFile;
 import com.tencent.fm.convert.bean.TargetFile;
-import org.docx4j.wml.Tr;
+import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.io.InputStream;
@@ -25,8 +24,12 @@ import java.io.InputStream;
 /**
  * Created by pengfeining on 2018/10/25 0025. 支持mhtml 如果文后缀名是mhtml
  */
-public class AsposeConvert implements Doc2HtmlConvert, Doc2PdfConvert,Xls2HtmlConvert,Xls2PdfConvert{
-    
+@Component
+public class AsposeConvert implements Word2HtmlConvert, Word2PdfConvert,Excel2HtmlConvert,Excel2PdfConvert {
+
+
+    @Value("xls.font.folder")//xls常用字体包文件夹路径
+    String XlsFontFolder;
     Logger logger = LoggerFactory.getLogger(AsposeConvert.class);
     
     /**
@@ -60,7 +63,17 @@ public class AsposeConvert implements Doc2HtmlConvert, Doc2PdfConvert,Xls2HtmlCo
         }
         return false;
     }
-    
+
+
+    @Override
+    public void word2pdf(SourceFile sourceFile, TargetFile targetFile) {
+        switch (sourceFile.getSourceFileType()){
+            case DOC:doc2pdf(sourceFile,targetFile);break;
+            case DOCX:docx2pdf(sourceFile,targetFile);break;
+            default:logger.info("{} is not a world",sourceFile.getPath());break;
+        }
+    }
+
     @Override
     public void doc2pdf(SourceFile sourceFile, TargetFile targetFile) {
         try {
@@ -80,7 +93,21 @@ public class AsposeConvert implements Doc2HtmlConvert, Doc2PdfConvert,Xls2HtmlCo
             e.printStackTrace();
         }
     }
-    
+
+    @Override
+    public void docx2pdf(SourceFile sourceFile, TargetFile targetFile) {
+        doc2pdf(sourceFile,targetFile);
+    }
+
+    @Override
+    public void word2html(SourceFile sourceFile, TargetFile targetFile) {
+        switch (sourceFile.getSourceFileType()){
+            case DOC:doc2html(sourceFile,targetFile);break;
+            case DOCX:docx2html(sourceFile,targetFile);break;
+            default:logger.info("{} is not a world",sourceFile.getPath());break;
+        }
+    }
+
     /**
      * 注意输出文件格式与输入文件格式 支持html 与mhtml的输出 mhtml 目前存在问题
      * 
@@ -132,6 +159,20 @@ public class AsposeConvert implements Doc2HtmlConvert, Doc2PdfConvert,Xls2HtmlCo
     }
 
     @Override
+    public void docx2html(SourceFile sourceFile, TargetFile targetFile) {
+        doc2html(sourceFile,targetFile);
+    }
+
+    @Override
+    public void excel2html(SourceFile sourceFile, TargetFile targetFile) {
+        switch (sourceFile.getSourceFileType()){
+            case XLS:xls2html(sourceFile,targetFile);break;
+            case XLSX:xlsx2html(sourceFile,targetFile);break;
+            default:logger.info("{} is not a excel",sourceFile.getPath());break;
+        }
+    }
+
+    @Override
     public void xls2html(SourceFile sourceFile, TargetFile targetFile) {
         try {
             long startTime=System.currentTimeMillis();
@@ -174,6 +215,20 @@ public class AsposeConvert implements Doc2HtmlConvert, Doc2PdfConvert,Xls2HtmlCo
         }
     }
 
+    @Override
+    public void xlsx2html(SourceFile sourceFile, TargetFile targetFile) {
+        xls2html(sourceFile,targetFile);
+    }
+
+
+    @Override
+    public void excel2pdf(SourceFile sourceFile, TargetFile targetFile) {
+        switch (sourceFile.getSourceFileType()){
+            case XLS:xls2pdf(sourceFile,targetFile);break;
+            case XLSX:xlsx2pdf(sourceFile,targetFile);break;
+            default:logger.info("{} is not a excel",sourceFile.getPath());break;
+        }
+    }
 
     /**
      * 注意所有引用的类需要为cells的
@@ -196,13 +251,19 @@ public class AsposeConvert implements Doc2HtmlConvert, Doc2PdfConvert,Xls2HtmlCo
                 logger.error("asopose params inputFilePath error:请设置为完整的文件路径");
                 return;
             }
-            //TODO 导入字体包 将常用的字体打包
-            IndividualFontConfigs fontConfigs=new IndividualFontConfigs();
-            fontConfigs.setFontFolder("",false);
-            com.aspose.cells.LoadOptions loadOptions=new com.aspose.cells.LoadOptions(com.aspose.cells.LoadFormat.XLSX);
-            loadOptions.setFontConfigs(fontConfigs);
+            Workbook workbook=null;
 
-            Workbook workbook=new Workbook(inputFilePath,loadOptions);
+            if(!StringUtils.isEmpty(XlsFontFolder)){
+                IndividualFontConfigs fontConfigs=new IndividualFontConfigs();
+                fontConfigs.setFontFolder("",false);
+                com.aspose.cells.LoadOptions loadOptions=new com.aspose.cells.LoadOptions(com.aspose.cells.LoadFormat.XLSX);
+                loadOptions.setFontConfigs(fontConfigs);
+
+                workbook =new Workbook(inputFilePath,loadOptions);
+            }else {
+                workbook =new Workbook(inputFilePath);
+            }
+
             com.aspose.cells.PdfSaveOptions options=new  com.aspose.cells.PdfSaveOptions( com.aspose.cells.SaveFormat.PDF);
 
             options.setAllColumnsInOnePagePerSheet(true);
@@ -216,5 +277,10 @@ public class AsposeConvert implements Doc2HtmlConvert, Doc2PdfConvert,Xls2HtmlCo
             logger.error("asopose convert error:" + e.getMessage());
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void xlsx2pdf(SourceFile sourceFile, TargetFile targetFile) {
+
     }
 }

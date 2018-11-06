@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa035f9-8db8-4057-a8b6-9ecdd29c696f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/ExcelToHtmlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocConverter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DocCoverter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/ApplyCustomLogicToEmptyRegions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/ApplyCustomLogicToEmptyRegions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/ReceiveNotificationOfMissingFontsAndFontSubstitution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/ReceiveNotificationOfMissingFontsAndFontSubstitution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/RenderShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/RenderShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Doc2HtmlConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Word2HtmlConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Doc2PdfConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Word2PdfConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2HtmlConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/PowerPoint2HtmlConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2PdfConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/PowerPoint2PdfConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2HtmlConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Excel2HtmlConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2PdfConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Excel2PdfConvert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/AsposeConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/AsposeConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/ConvertFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/ConvertFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFileType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFileType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Docx4jConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Docx4jConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/PoiConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/PoiConvert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/MailMerge/Customers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MailMerge/Customers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,20 +47,143 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AsposeConvert.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AsposeConvert.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/AsposeConvert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="201" column="22" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
+            <state relative-caret-position="802">
+              <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getLicense#0;class#AsposeConvert#0" />
+                <element signature="method#notNull#0;class#AsposeConvert#0" />
+                <element signature="method#doc2pdf#0;class#AsposeConvert#0" />
+                <element signature="method#doc2html#0;class#AsposeConvert#0" />
+                <element signature="method#xls2html#0;class#AsposeConvert#0" />
+                <element signature="method#xls2pdf#0;class#AsposeConvert#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#asposePdfTest#0;class#Main#0" />
+                <element signature="method#doc4jHtmlTest#0;class#Main#0" />
+                <element signature="method#asposeHtmlTest#0;class#Main#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PoiConvert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/PoiConvert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="132" column="73" lean-forward="true" selection-start-line="132" selection-start-column="73" selection-end-line="132" selection-end-column="73" />
+              <folding>
+                <element signature="method#xls2html#0;class#PoiConvert#0" />
+                <element signature="method#xlsx2html#0;class#PoiConvert#0" />
+                <element signature="method#doc2html#0;class#PoiConvert#0" />
+                <element signature="e#4719#4999#0" expanded="true" />
+                <element signature="e#4998#4999#0" expanded="true" />
+                <element signature="method#docx2html#0;class#PoiConvert#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelToHtmlUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/ExcelToHtmlUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="662">
+              <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4372#4388#0" expanded="true" />
+                <element signature="e#4438#4454#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Docx4jConvert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Docx4jConvert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="183" column="24" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
+              <folding>
+                <element signature="method#doc2pdf#0;class#Docx4jConvert#0" />
+                <element signature="e#7101#7102#0" expanded="true" />
+                <element signature="e#7127#7128#0" expanded="true" />
+                <element signature="method#doc2html#0;class#Docx4jConvert#0" />
+                <element signature="e#11770#11771#0" expanded="true" />
+                <element signature="e#11806#11807#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="108" column="51" lean-forward="true" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileConvertFactoryImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvertFactoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PowerPoint2HtmlConvert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/PowerPoint2HtmlConvert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Word2PdfConvert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Word2PdfConvert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/ConvertFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,6 +208,8 @@
       <find>cost</find>
       <find>userCSS</find>
       <find>PMingLiU</find>
+      <find>poi-scratchpad</find>
+      <find>xmlbeans</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,11 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hf.fo" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/docx4j/fonts/ChineseFonts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/builder/WordprocessingMLPackageBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/aspose/license.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/DocToPdf.java" />
         <option value="$PROJECT_DIR$/src/main/resources/aspose/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/quickstart/UpdateFields.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/rendering_printing/MultiplePagesOnSheet.java" />
@@ -100,20 +243,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2PdfConvert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2HtmlConvert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2PdfConvert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/ConvertFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Doc4jConvert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/Doc4jConvert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Docx4jConvert.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/PoiConvert.java" />
         <option value="$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/ExportWorksheetCSSSeparatelyInOutputHTML.java" />
         <option value="$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertADocumentToMHTMLAndEmail.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/DocxFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Doc2HtmlTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFileType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFileType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Excel2HtmlConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Excel2PdfConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Word2HtmlConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Word2PdfConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/PowerPoint2HtmlConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/PowerPoint2PdfConvert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Docx4jConvert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/AsposeConvert.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/ConvertFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/ExcelToHtmlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/PoiConvert.java" />
       </list>
     </option>
   </component>
@@ -138,22 +293,14 @@
     </option>
     <option name="enabledProfiles">
       <list>
+        <option value="internal" />
         <option value="alimaven" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="DocConverter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -161,9 +308,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-390" />
-    <option name="y" value="23" />
-    <option name="width" value="1936" />
+    <option name="x" value="177" />
+    <option name="y" value="31" />
+    <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
   <component name="ProjectView">
@@ -171,7 +318,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,11 +370,81 @@
               <item name="convert" type="462c0819:PsiDirectoryNode" />
               <item name="aspose" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocCoverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="convert" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocCoverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="convert" type="462c0819:PsiDirectoryNode" />
+              <item name="docx4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DocCoverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="convert" type="462c0819:PsiDirectoryNode" />
+              <item name="poi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.poi:poi:3.10.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.poi:poi:3.10.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="poi-3.10.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.poi:poi:3.10.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="poi-3.10.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="poi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.poi:poi:3.10.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="poi-3.10.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="poi" type="462c0819:PsiDirectoryNode" />
+              <item name="ss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DocConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.poi:poi:3.10.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="poi-3.10.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="poi" type="462c0819:PsiDirectoryNode" />
+              <item name="ss" type="462c0819:PsiDirectoryNode" />
+              <item name="usermodel" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -236,20 +452,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="D:/Jarvis/jarvis-message" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38334858" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\programming_documents\images\InsertBarcodeImage" />
-      <recent name="E:\DocCoverter\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.aspose.words.examples" />
-      <recent name="examples" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\trunk\DocCoverter\src\main\java" />
@@ -257,6 +468,14 @@
       <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\SimpleMailMerge" />
       <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\FindAndReplace" />
       <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\quickstart\AppendDocuments" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aspose.words.examples" />
+      <recent name="examples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\trunk\DocCoverter\src\main\resources\com\aspose\words\examples\programming_documents\images\InsertBarcodeImage" />
+      <recent name="E:\DocCoverter\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,30 +490,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
     </configuration>
-    <configuration name="ConvertADocumentToMHTMLAndEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aspose.words.examples.loading_saving.ConvertADocumentToMHTMLAndEmail" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Main" />
       <module name="DocConverter" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.aspose.words.examples.loading_saving.*" />
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="DocConverter" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="">
       <option name="arquillianRunConfiguration">
@@ -394,16 +609,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="DocCoverter" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -461,14 +666,9 @@
       <arguments />
       <envs />
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ConvertADocumentToMHTMLAndEmail" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ConvertADocumentToMHTMLAndEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -492,7 +692,10 @@
       <workItem from="1540863224488" duration="3031000" />
       <workItem from="1540870123774" duration="4401000" />
       <workItem from="1541139473676" duration="13271000" />
-      <workItem from="1541386920128" duration="13650000" />
+      <workItem from="1541386920128" duration="14354000" />
+      <workItem from="1541468123178" duration="515000" />
+      <workItem from="1541468670010" duration="9118000" />
+      <workItem from="1541507886416" duration="5086000" />
     </task>
     <task id="LOCAL-00001" summary="1st Edition">
       <created>1540448626667</created>
@@ -550,50 +753,57 @@
       <option name="project" value="LOCAL" />
       <updated>1541426472826</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="提交aspose的封装">
+      <created>1541426504970</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541426504970</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91151000" />
+    <option name="totallyTimeSpent" value="106574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5028612" side_tool="true" weight="0.3890909" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50429183" side_tool="true" weight="0.30666667" />
       <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.4927798" weight="0.25822604" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49713877" visible="true" weight="0.25575757" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49570817" visible="true" weight="0.30666667" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49785408" weight="0.32848486" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49713877" weight="0.3272727" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.32848486" />
-      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.5072202" side_tool="true" weight="0.10085837" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.3272727" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739628" />
-      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27968526" />
+      <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985694" weight="0.3272727" />
+      <window_info anchor="right" id="Coverage" order="3" sideWeight="0.5072202" side_tool="true" weight="0.10085837" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +824,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="43" />
+      <option name="time" value="48" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -622,46 +832,8 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/RemoveWhitespaceAroundData.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/LoadingSavingConvertingAndManaging/GetWarningLoadingAnExcel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Worksheets/PageSetupFeatures/RemoveExistingPrinterSettingsOfWorksheets.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/CreatePivotTable.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/DateDataValidation.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Charts/ModifyLineChart.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/DrawingObjects/AddingLabelControl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/DigitallySignedPdf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/TechnicalArticles/SpecifyingCustomSeparators.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/ExcludeUnusedStylesInExcelToHTML.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/Data/SetPattern.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/mail_merge/InsertCheckBoxesOrHTMLDuringMailMerge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvert.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/AsposeConvert.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFileType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFileType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvertFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -669,64 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2HtmlConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Ppt2PdfConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2HtmlConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Convert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/ConvertFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,56 +856,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvertFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/env/repository/org/apache/poi/poi-scratchpad/3.17/poi-scratchpad-3.17.pom" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="81" column="36" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
-          <folding>
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Doc2PdfConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/ExportWorksheetCSSSeparatelyInOutputHTML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/AsposeCellsExamples/HTML/ExportWorksheetCSSSeparatelyInOutputHTML.java" />
     <entry file="jar://$PROJECT_DIR$/../../env/mvn_repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/HtmlSaveOptions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="514" column="16" selection-start-line="514" selection-start-column="16" selection-end-line="514" selection-end-column="16" />
-          <folding>
-            <element signature="e#12316#12317#0" expanded="true" />
-            <element signature="e#12350#12351#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,16 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Docx4jConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="134" column="55" lean-forward="true" selection-start-line="134" selection-start-column="55" selection-end-line="134" selection-end-column="55" />
-          <folding>
-            <element signature="method#checkFonts#0;class#Docx4jConvert#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,10 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Xls2PdfConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../env/mvn_repository/com/aspose/aspose-words/18.10/aspose-words-18.10-jdk16.jar!/com/aspose/words/SaveFormat.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -861,30 +915,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../env/mvn_repository/com/aspose/aspose-cells/18.10/aspose-cells-18.10.jar!/com/aspose/cells/IndividualFontConfigs.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aspose/words/examples/loading_saving/ConvertADocumentToMHTMLAndEmail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Doc2HtmlConvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,36 +939,222 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/aspose/Aspose.Total.Java.lic">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/_files/8fa545bb-124d-43da-acec-d11879a24a13image9.png" />
+    <entry file="file://$PROJECT_DIR$/_files/8fa545bb-124d-43da-acec-d11879a24a13image1.png" />
+    <entry file="file://$PROJECT_DIR$/hf.fo">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../env/mvn_repository/com/aspose/aspose-cells/18.10/aspose-cells-18.10.jar!/com/aspose/cells/IndividualFontConfigs.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="90">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../env/mvn_repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DocCoverter.iml" />
+    <entry file="file://$PROJECT_DIR$/DocCoverter.iml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Doc2HtmlTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/DocxFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
-            <element signature="method#asposePdfTest#0;class#Main#0" />
-            <element signature="method#doc4jHtmlTest#0;class#Main#0" />
-            <element signature="method#asposeHtmlTest#0;class#Main#0" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Word2HtmlConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/PowerPoint2PdfConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Excel2PdfConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Excel2HtmlConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/TargetFileType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/SourceFileType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../env/mvn_repository/org/apache/poi/poi-ooxml/4.0.0/poi-ooxml-4.0.0.jar!/org/apache/poi/xwpf/usermodel/XWPFDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="452" column="4" lean-forward="true" selection-start-line="452" selection-start-column="4" selection-end-line="452" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/Word2PdfConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/FileConvertFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/bean/ConvertFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="108" column="51" lean-forward="true" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../env/mvn_repository/org/apache/poi/poi/3.10.1/poi-3.10.1.jar!/org/apache/poi/ss/usermodel/Workbook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/ExcelToHtmlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4372#4388#0" expanded="true" />
+            <element signature="e#4438#4454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/docx4j/Docx4jConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="183" column="24" selection-start-line="183" selection-start-column="24" selection-end-line="183" selection-end-column="24" />
+          <folding>
+            <element signature="method#doc2pdf#0;class#Docx4jConvert#0" />
+            <element signature="e#7101#7102#0" expanded="true" />
+            <element signature="e#7127#7128#0" expanded="true" />
+            <element signature="method#doc2html#0;class#Docx4jConvert#0" />
+            <element signature="e#11770#11771#0" expanded="true" />
+            <element signature="e#11806#11807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/PowerPoint2HtmlConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/AsposeConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="169" column="22" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getLicense#0;class#AsposeConvert#0" />
+            <element signature="method#notNull#0;class#AsposeConvert#0" />
+            <element signature="method#doc2pdf#0;class#AsposeConvert#0" />
+            <element signature="method#doc2html#0;class#AsposeConvert#0" />
+            <element signature="method#xls2html#0;class#AsposeConvert#0" />
+            <element signature="method#xls2pdf#0;class#AsposeConvert#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/poi/PoiConvert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="98" column="64" selection-start-line="98" selection-start-column="64" selection-end-line="98" selection-end-column="64" />
+        <state relative-caret-position="293">
+          <caret line="132" column="73" lean-forward="true" selection-start-line="132" selection-start-column="73" selection-end-line="132" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ppt2html#0;class#PoiConvert#0" />
-            <element signature="method#checkFile#0;class#PoiConvert#0" />
+            <element signature="method#xls2html#0;class#PoiConvert#0" />
+            <element signature="method#xlsx2html#0;class#PoiConvert#0" />
+            <element signature="method#doc2html#0;class#PoiConvert#0" />
+            <element signature="e#4719#4999#0" expanded="true" />
+            <element signature="e#4998#4999#0" expanded="true" />
+            <element signature="method#docx2html#0;class#PoiConvert#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tencent/fm/convert/aspose/AsposeConvert.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="201" column="22" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
+        <state relative-caret-position="328">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#asposePdfTest#0;class#Main#0" />
+            <element signature="method#doc4jHtmlTest#0;class#Main#0" />
+            <element signature="method#asposeHtmlTest#0;class#Main#0" />
           </folding>
         </state>
       </provider>

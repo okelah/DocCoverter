@@ -11,6 +11,15 @@ public class TargetFile extends ConvertFile {
     }
 
     public TargetFileType getTargetFileType() {
+        if(targetFileType!=null){
+            return targetFileType;
+        }
+        String extensionName= getExtensionName();
+        switch (extensionName){
+            case "html": targetFileType=TargetFileType.HTML;break;
+            case "pdf":targetFileType=TargetFileType.PDF;break;
+            default:break;
+        }
         return targetFileType;
     }
 
