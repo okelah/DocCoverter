@@ -11,12 +11,12 @@
 
     <build>
         <finalName>${project.name}</finalName>
-        <resources>
-            <resource>
-                <directory>${project.basedir}/src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
+        <!--<resources>-->
+            <!--<resource>-->
+                <!--<directory>${project.basedir}/src/main/resources</directory>-->
+                <!--<filtering>true</filtering>-->
+            <!--</resource>-->
+        <!--</resources>-->
         <plugins>
             <!--复制dependencies到lib目录-->
             <plugin>

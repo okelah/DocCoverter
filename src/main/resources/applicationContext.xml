@@ -7,4 +7,17 @@
     <context:property-placeholder location="classpath:application.properties" ignore-unresolvable="true"/>
     <context:annotation-config/>
     <context:component-scan base-package="com.tencent.fm.convert.*"/>
+
+    <bean id="fileConvert" class="com.tencent.fm.convert.FileConvertImpl">
+        <property name="word2PdfConvert" ref="asposeConvert"></property>
+        <property name="word2HtmlConvert" ref="asposeConvert"></property>
+        <property name="excel2HtmlConvert" ref="asposeConvert"></property>
+        <property name="excel2PdfConvert" ref="asposeConvert"></property>
+    </bean>
+
+    <bean id="asposeConvert" class="com.tencent.fm.convert.aspose.AsposeConvert"></bean>
+
+    <bean id="docx4jConvert" class="com.tencent.fm.convert.docx4j.Docx4jConvert"></bean>
+
+    <bean id="poiConvert" class="com.tencent.fm.convert.poi.PoiConvert"></bean>
 </beans>
