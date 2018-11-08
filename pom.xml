@@ -60,10 +60,8 @@
                         </manifest>
                         <manifestFile>${project.basedir}/src/META-INF/MANIFEST.MF</manifestFile>
                         <manifestEntries>
-                            <Class-Path>libs-aspose/aspose-cells-8.5.2.jar</Class-Path>
-                            <Class-Path>libs-aspose/aspose-words-18.10-jdk16.jar</Class-Path>
                             <!-- 在Class-Path下添加配置文件的路径 -->
-                            <Class-Path>conf/</Class-Path>
+                            <Class-Path>libs-aspose/aspose-cells-8.5.2.jar libs-aspose/aspose-words-18.10-jdk16.jar conf/</Class-Path>
                         </manifestEntries>
                     </archive>
                 </configuration>
