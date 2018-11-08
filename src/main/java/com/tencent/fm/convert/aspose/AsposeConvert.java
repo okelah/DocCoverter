@@ -1,7 +1,6 @@
 package com.tencent.fm.convert.aspose;
 
 import com.aspose.cells.CellsHelper;
-import com.aspose.cells.PdfCustomPropertiesExport;
 import com.aspose.cells.Workbook;
 import com.aspose.words.*;
 import com.aspose.cells.*;
@@ -18,6 +17,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.InputStream;
 
 
@@ -28,8 +28,20 @@ import java.io.InputStream;
 public class AsposeConvert implements Word2HtmlConvert, Word2PdfConvert,Excel2HtmlConvert,Excel2PdfConvert {
 
 
-    @Value("xls.font.folder")//xls常用字体包文件夹路径
+    @Value("${xls.font.folder}")//xls常用字体包文件夹路径 没有用到
     String XlsFontFolder;
+
+    @Value("${license.path}")//xls常用字体包文件夹路
+    String licensePath;
+
+    public void setXlsFontFolder(String xlsFontFolder) {
+        XlsFontFolder = xlsFontFolder;
+    }
+
+    public void setLicensePath(String licensePath) {
+        this.licensePath = licensePath;
+    }
+
     Logger logger = LoggerFactory.getLogger(AsposeConvert.class);
     
     /**
@@ -37,12 +49,29 @@ public class AsposeConvert implements Word2HtmlConvert, Word2PdfConvert,Excel2Ht
      *
      * @return
      */
-    public static boolean getLicense() {
+//    public static boolean getLicense() {
+//        boolean result = false;
+//        try {
+//            InputStream is = AsposeConvert.class.getClassLoader().getResourceAsStream("aspose/Aspose.Total.Java.lic");
+//            License aposeLic = new License();
+//            aposeLic.setLicense(is);
+//            result = true;
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        return result;
+//    }
+
+    public  boolean getLicense() {
+        InputStream license;
+        InputStream fileInput;
+        File outputFile;
         boolean result = false;
         try {
-            InputStream is = AsposeConvert.class.getClassLoader().getResourceAsStream("aspose/Aspose.Total.Java.lic");
+            ClassLoader loader = Thread.currentThread().getContextClassLoader();
+            license = AsposeConvert.class.getClassLoader().getResourceAsStream(licensePath);
             License aposeLic = new License();
-            aposeLic.setLicense(is);
+            aposeLic.setLicense(license);
             result = true;
         } catch (Exception e) {
             e.printStackTrace();
@@ -193,19 +222,20 @@ public class AsposeConvert implements Word2HtmlConvert, Word2PdfConvert,Excel2Ht
             Workbook workbook= new Workbook(inputFilePath);
             com.aspose.cells.HtmlSaveOptions options=new com.aspose.cells.HtmlSaveOptions();
             //隐藏压盖的内容
-            options.setHtmlCrossStringType(HtmlCrossType.CROSS_HIDE_RIGHT);
-
-            options.setExportDocumentProperties(false);
-            options.setExportWorkbookProperties(false);
-            options.setExportWorksheetProperties(false);
-
-            options.setExportSimilarBorderStyle(true);
-
-            options.setExportWorksheetCSSSeparately(true);
-
-            options.setTableCssId("tableCssId");
-            //去掉没用的
-            options.setExcludeUnusedStyles(true);
+//            破解版本低问题 注释掉18.10才有
+//            options.setHtmlCrossStringType(HtmlCrossType.CROSS_HIDE_RIGHT);
+//
+//            options.setExportDocumentProperties(false);
+//            options.setExportWorkbookProperties(false);
+//            options.setExportWorksheetProperties(false);
+//
+//            options.setExportSimilarBorderStyle(true);
+//
+//            options.setExportWorksheetCSSSeparately(true);
+//
+//            options.setTableCssId("tableCssId");
+//            //去掉没用的
+//            options.setExcludeUnusedStyles(true);
             workbook.save(outputFilePath,options);
             long endTime=System.currentTimeMillis();
             logger.info(workbook.getFileName()+" 转化成功,花费时间{}ms",endTime-startTime);
@@ -254,12 +284,12 @@ public class AsposeConvert implements Word2HtmlConvert, Word2PdfConvert,Excel2Ht
             Workbook workbook=null;
 
             if(!StringUtils.isEmpty(XlsFontFolder)){
-                IndividualFontConfigs fontConfigs=new IndividualFontConfigs();
-                fontConfigs.setFontFolder("",false);
-                com.aspose.cells.LoadOptions loadOptions=new com.aspose.cells.LoadOptions(com.aspose.cells.LoadFormat.XLSX);
-                loadOptions.setFontConfigs(fontConfigs);
-
-                workbook =new Workbook(inputFilePath,loadOptions);
+//                IndividualFontConfigs fontConfigs=new IndividualFontConfigs();
+//                fontConfigs.setFontFolder("",false);
+//                com.aspose.cells.LoadOptions loadOptions=new com.aspose.cells.LoadOptions(com.aspose.cells.LoadFormat.XLSX);
+////                loadOptions.setFontConfigs(fontConfigs);
+//
+//                workbook =new Workbook(inputFilePath,loadOptions);
             }else {
                 workbook =new Workbook(inputFilePath);
             }
@@ -268,7 +298,7 @@ public class AsposeConvert implements Word2HtmlConvert, Word2PdfConvert,Excel2Ht
 
             options.setAllColumnsInOnePagePerSheet(true);
 
-            options.setCustomPropertiesExport(PdfCustomPropertiesExport.STANDARD);
+//            options.setCustomPropertiesExport(PdfCustomPropertiesExport.STANDARD);
 
             workbook.save(outputFilePath,options);
             long endTime=System.currentTimeMillis();
@@ -281,6 +311,6 @@ public class AsposeConvert implements Word2HtmlConvert, Word2PdfConvert,Excel2Ht
 
     @Override
     public void xlsx2pdf(SourceFile sourceFile, TargetFile targetFile) {
-
+        xls2pdf(sourceFile,targetFile);
     }
 }

@@ -15,14 +15,19 @@ public class SourceFile extends ConvertFile {
             return sourceFileType;
         }
        String extensionName= getExtensionName();
-        switch (extensionName){
-            case "doc":sourceFileType=SourceFileType.DOC;break;
-            case "docx": sourceFileType=SourceFileType.DOCX;break;
-            case "xls":sourceFileType=SourceFileType.XLS;break;
-            case "xlsx":sourceFileType=SourceFileType.XLSX;break;
-            case "ppt":sourceFileType=SourceFileType.PPT;break;
-            case "pptx":sourceFileType=SourceFileType.PPTX;break;
-            default:break;
+        if ("doc".equals(extensionName)) {
+            sourceFileType = SourceFileType.DOC;
+        } else if ("docx".equals(extensionName)) {
+            sourceFileType = SourceFileType.DOCX;
+        } else if ("xls".equals(extensionName)) {
+            sourceFileType = SourceFileType.XLS;
+        } else if ("xlsx".equals(extensionName)) {
+            sourceFileType = SourceFileType.XLSX;
+        } else if ("ppt".equals(extensionName)) {
+            sourceFileType = SourceFileType.PPT;
+        } else if ("pptx".equals(extensionName)) {
+            sourceFileType = SourceFileType.PPTX;
+        } else {
         }
         return sourceFileType;
     }

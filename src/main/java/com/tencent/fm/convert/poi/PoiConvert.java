@@ -3,6 +3,7 @@ package com.tencent.fm.convert.poi;
 import com.tencent.fm.convert.Word2HtmlConvert;
 import com.tencent.fm.convert.PowerPoint2HtmlConvert;
 import com.tencent.fm.convert.Excel2HtmlConvert;
+import com.tencent.fm.convert.Word2PdfConvert;
 import com.tencent.fm.convert.bean.SourceFile;
 import com.tencent.fm.convert.bean.SourceFileType;
 import com.tencent.fm.convert.bean.TargetFile;
@@ -17,6 +18,8 @@ import org.apache.poi.hwpf.usermodel.PictureType;
 import org.apache.poi.xwpf.converter.core.BasicURIResolver;
 import org.apache.poi.xwpf.converter.core.FileImageExtractor;
 import org.apache.poi.xwpf.converter.core.FileURIResolver;
+import org.apache.poi.xwpf.converter.pdf.PdfConverter;
+import org.apache.poi.xwpf.converter.pdf.PdfOptions;
 import org.apache.poi.xwpf.converter.xhtml.XHTMLConverter;
 import org.apache.poi.xwpf.converter.xhtml.XHTMLOptions;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
@@ -37,31 +40,10 @@ import java.util.List;
 /**
  * Created by pengfeining on 2018/11/2 0002.
  */
-public class PoiConvert implements Word2HtmlConvert, Excel2HtmlConvert, PowerPoint2HtmlConvert {
+public class PoiConvert implements Word2HtmlConvert, Excel2HtmlConvert ,Word2PdfConvert {
     
     Logger logger = LoggerFactory.getLogger(PoiConvert.class);
 
-    @Override
-    public void powerpoint2html(SourceFile sourceFile, TargetFile targetFile) {
-
-    }
-
-    /**
-     * 本质上是转图片
-     * 换个远吗
-     * 
-     * @param sourceFile
-     * @param targetFile
-     */
-    @Override
-    public void ppt2html(SourceFile sourceFile, TargetFile targetFile) {
-
-    }
-
-    @Override
-    public void pptx2html(SourceFile sourceFile, TargetFile targetFile) {
-
-    }
 
     @Override
     public void excel2html(SourceFile sourceFile, TargetFile targetFile) {
@@ -211,6 +193,40 @@ public class PoiConvert implements Word2HtmlConvert, Excel2HtmlConvert, PowerPoi
             XHTMLConverter.getInstance().convert(document, out, options);
         }catch (Exception e){
             logger.error("poi convert docx2html failed:"+e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void word2pdf(SourceFile sourceFile, TargetFile targetFile) {
+        switch (sourceFile.getSourceFileType()){
+            case DOC:doc2pdf(sourceFile,targetFile);break;
+            case DOCX:docx2pdf(sourceFile,targetFile);break;
+            default:logger.info("{} is not a word",sourceFile.getPath());break;
+        }
+    }
+
+    @Override
+    public void doc2pdf(SourceFile sourceFile, TargetFile targetFile) {
+        docx2pdf(sourceFile,targetFile);
+    }
+
+    @Override
+    public void docx2pdf(SourceFile sourceFile, TargetFile targetFile) {
+        try {
+            String inputFilePath = sourceFile.getPath();
+            String outputFilePath = targetFile.getPath();
+            long startTime = System.currentTimeMillis();
+        XWPFDocument document = new XWPFDocument(new FileInputStream(new File(inputFilePath)));
+
+        // 2) Prepare Pdf options
+        PdfOptions options = PdfOptions.create();
+
+        // 3) Convert XWPFDocument to Pdf
+        OutputStream out = new FileOutputStream(new File(outputFilePath));
+        PdfConverter.getInstance().convert(document, out, options);
+            long endTime = System.currentTimeMillis();}catch (Exception e){
+            logger.error("poi convert docx2pdf failed:"+e.getMessage());
             e.printStackTrace();
         }
     }

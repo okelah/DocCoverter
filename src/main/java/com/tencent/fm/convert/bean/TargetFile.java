@@ -15,10 +15,11 @@ public class TargetFile extends ConvertFile {
             return targetFileType;
         }
         String extensionName= getExtensionName();
-        switch (extensionName){
-            case "html": targetFileType=TargetFileType.HTML;break;
-            case "pdf":targetFileType=TargetFileType.PDF;break;
-            default:break;
+        if ("html".equals(extensionName)) {
+            targetFileType = TargetFileType.HTML;
+        } else if ("pdf".equals(extensionName)) {
+            targetFileType = TargetFileType.PDF;
+        } else {
         }
         return targetFileType;
     }

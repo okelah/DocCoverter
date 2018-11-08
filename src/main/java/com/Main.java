@@ -10,6 +10,8 @@ import com.tencent.fm.convert.docx4j.Docx4jConvert;
 import com.tencent.fm.convert.poi.PoiConvert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -25,6 +27,9 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
+        ApplicationContext ac=new ClassPathXmlApplicationContext("applicationContext.xml");
+       Word2PdfConvert convert= (Word2PdfConvert) ac.getBean("asposeConvert");
+//        convert.doc2pdf(new SourceFile(""),new TargetFile(""));
 //        String testfile="my.docx";
 //        String testfile = "mac-edit.docx";
 //        String testfile = "chart.docx";
@@ -39,8 +44,9 @@ public class Main {
 //        asposePdfTest(testfile);
 //        pdftest();
 //        htmlTest();
-        xlsHtml();
 //        xlsHtml();
+//        xlsHtml();
+//        xlsPdf();
 //        xlsPdf();
     }
 
@@ -61,7 +67,7 @@ public class Main {
     }
 
     public static void xlsHtml() throws Exception{
-        SourceFile sourceFile=new SourceFile("//Users//null//Desktop//公司对比.xlsx");
+        SourceFile sourceFile=new SourceFile("//Users//null//Desktop//个人预算1.xlsx");
         TargetFile targetFile=new TargetFile("//Users//null//Desktop//asposeXls.html");
 //        Document document=new Document(sourceFile.getPath());
 //        document.save(targetFile.getPath(),SaveFormat.MHTML);
